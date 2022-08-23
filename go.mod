@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/alexfalkowski/go-health v1.10.4
-	github.com/alexfalkowski/go-service v1.74.5
+	github.com/alexfalkowski/go-service v1.74.6
 	go.uber.org/fx v1.18.1
 )
 
@@ -84,7 +84,7 @@ require (
 	google.golang.org/genproto v0.0.0-20220817144833-d7fd3f11b9b1 // indirect
 	google.golang.org/grpc v1.48.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
-	gopkg.in/DataDog/dd-trace-go.v1 v1.40.1 // indirect
+	gopkg.in/DataDog/dd-trace-go.v1 v1.41.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
