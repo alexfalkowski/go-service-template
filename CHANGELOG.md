@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/alexfalkowski/go-service-template/compare/v1.1.23...v1.2.0) (2022-10-06)
+
+
+### Features
+
+* **new:** add ability to create new project ([#26](https://github.com/alexfalkowski/go-service-template/issues/26)) ([43d41b7](https://github.com/alexfalkowski/go-service-template/commit/43d41b728004fb498fa41f933e8ee50c5b56d323))
+
 ### [1.1.23](https://github.com/alexfalkowski/go-service-template/compare/v1.1.22...v1.1.23) (2022-10-06)
 
 ### [1.1.22](https://github.com/alexfalkowski/go-service-template/compare/v1.1.21...v1.1.22) (2022-10-03)
