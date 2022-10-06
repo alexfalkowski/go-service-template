@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -e
+
+readonly name=$1
+readonly path=$2
+
+# Create the path if does not exist.
+mkdir -p "$path"
+
+# Copy all the files.
+cp -R . "$path"
+
+# Remove files that are not needed.
+rm -rf "$path/.git" "$path/vendor" "$path/test/vendor" "$path/tools/new" "$path/CHANGELOG.md" "$path/go-service-template"
+
+# Replace name in files.
+find "$path" -type f -exec gsed -i "s/go-service-template/$name/g" {} +
+find "$path/test" -type f -name "*.rb" -exec gsed -i "s/Example/${name^}/g" {} +
+find "$path/test" -type f -name "*.rb" -exec gsed -i "s/example/$name/g" {} +
+mv "$path/test/lib/example.rb" "$path/test/lib/$name.rb"
