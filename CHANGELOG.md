@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.22](https://github.com/alexfalkowski/go-service-template/compare/v1.2.21...v1.2.22) (2022-11-22)
+
 ### [1.2.21](https://github.com/alexfalkowski/go-service-template/compare/v1.2.20...v1.2.21) (2022-11-17)
 
 ### [1.2.20](https://github.com/alexfalkowski/go-service-template/compare/v1.2.19...v1.2.20) (2022-11-15)
