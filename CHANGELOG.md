@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.48](https://github.com/alexfalkowski/go-service-template/compare/v1.2.47...v1.2.48) (2023-01-05)
+
+
+### Bug Fixes
+
+* downgrade go.uber.org/fx to v1.18.2 ([#77](https://github.com/alexfalkowski/go-service-template/issues/77)) ([233da39](https://github.com/alexfalkowski/go-service-template/commit/233da390cd0054e18240404d0d7df3035c6ab4f3))
+
 ### [1.2.47](https://github.com/alexfalkowski/go-service-template/compare/v1.2.46...v1.2.47) (2023-01-05)
 
 ### [1.2.46](https://github.com/alexfalkowski/go-service-template/compare/v1.2.45...v1.2.46) (2023-01-05)
