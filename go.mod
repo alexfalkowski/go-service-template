@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/alexfalkowski/go-health v1.11.0
-	github.com/alexfalkowski/go-service v1.78.0
+	github.com/alexfalkowski/go-service v1.79.0
 	go.uber.org/fx v1.18.2
 )
 
