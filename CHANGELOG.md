@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/alexfalkowski/go-service-template/compare/v1.2.48...v1.3.0) (2023-01-06)
+
+
+### Features
+
+* update github.com/alexfalkowski/go-service to v1.78.0 ([#79](https://github.com/alexfalkowski/go-service-template/issues/79)) ([d8963d3](https://github.com/alexfalkowski/go-service-template/commit/d8963d3d2e8284d40a6a75133f294bc24d17425f))
+
 ### [1.2.48](https://github.com/alexfalkowski/go-service-template/compare/v1.2.47...v1.2.48) (2023-01-05)
 
 
