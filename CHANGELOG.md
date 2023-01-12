@@ -1,192 +1,196 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
 
-### [1.4.3](https://github.com/alexfalkowski/go-service-template/compare/v1.4.2...v1.4.3) (2023-01-11)
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-### [1.4.2](https://github.com/alexfalkowski/go-service-template/compare/v1.4.1...v1.4.2) (2023-01-10)
+## Unreleased
 
-### [1.4.1](https://github.com/alexfalkowski/go-service-template/compare/v1.4.0...v1.4.1) (2023-01-10)
+## [v1.4.3](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.4.3) - 2023-01-11
 
-## [1.4.0](https://github.com/alexfalkowski/go-service-template/compare/v1.3.4...v1.4.0) (2023-01-09)
+## [v1.4.2](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.4.2) - 2023-01-10
 
+## [v1.4.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.4.1) - 2023-01-10
 
-### Features
+## [v1.4.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.4.0) - 2023-01-09
 
-* **main:** use the same command ([#84](https://github.com/alexfalkowski/go-service-template/issues/84)) ([a64d352](https://github.com/alexfalkowski/go-service-template/commit/a64d352f11cde36e34cbd8a8f0a7f66994a96bb2))
+- [`a64d352`](https://github.com/alexfalkowski/go-service-template/commit/a64d352f11cde36e34cbd8a8f0a7f66994a96bb2) feat(main): use the same command (#84)
 
-### [1.3.4](https://github.com/alexfalkowski/go-service-template/compare/v1.3.3...v1.3.4) (2023-01-09)
+## [v1.3.4](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.3.4) - 2023-01-09
 
-### [1.3.3](https://github.com/alexfalkowski/go-service-template/compare/v1.3.2...v1.3.3) (2023-01-07)
+## [v1.3.3](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.3.3) - 2023-01-07
 
-### [1.3.2](https://github.com/alexfalkowski/go-service-template/compare/v1.3.1...v1.3.2) (2023-01-07)
+## [v1.3.2](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.3.2) - 2023-01-07
 
-### [1.3.1](https://github.com/alexfalkowski/go-service-template/compare/v1.3.0...v1.3.1) (2023-01-06)
+## [v1.3.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.3.1) - 2023-01-06
 
-## [1.3.0](https://github.com/alexfalkowski/go-service-template/compare/v1.2.48...v1.3.0) (2023-01-06)
+## [v1.3.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.3.0) - 2023-01-06
 
+- [`d8963d3`](https://github.com/alexfalkowski/go-service-template/commit/d8963d3d2e8284d40a6a75133f294bc24d17425f) feat: update github.com/alexfalkowski/go-service to v1.78.0 (#79)
 
-### Features
+## [v1.2.48](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.48) - 2023-01-05
 
-* update github.com/alexfalkowski/go-service to v1.78.0 ([#79](https://github.com/alexfalkowski/go-service-template/issues/79)) ([d8963d3](https://github.com/alexfalkowski/go-service-template/commit/d8963d3d2e8284d40a6a75133f294bc24d17425f))
+- [`233da39`](https://github.com/alexfalkowski/go-service-template/commit/233da390cd0054e18240404d0d7df3035c6ab4f3) fix: downgrade go.uber.org/fx to v1.18.2 (#77)
 
-### [1.2.48](https://github.com/alexfalkowski/go-service-template/compare/v1.2.47...v1.2.48) (2023-01-05)
+## [v1.2.47](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.47) - 2023-01-05
 
+## [v1.2.46](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.46) - 2023-01-05
 
-### Bug Fixes
+## [v1.2.45](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.45) - 2023-01-04
 
-* downgrade go.uber.org/fx to v1.18.2 ([#77](https://github.com/alexfalkowski/go-service-template/issues/77)) ([233da39](https://github.com/alexfalkowski/go-service-template/commit/233da390cd0054e18240404d0d7df3035c6ab4f3))
+## [v1.2.44](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.44) - 2023-01-02
 
-### [1.2.47](https://github.com/alexfalkowski/go-service-template/compare/v1.2.46...v1.2.47) (2023-01-05)
+## [v1.2.43](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.43) - 2022-12-28
 
-### [1.2.46](https://github.com/alexfalkowski/go-service-template/compare/v1.2.45...v1.2.46) (2023-01-05)
+## [v1.2.42](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.42) - 2022-12-26
 
-### [1.2.45](https://github.com/alexfalkowski/go-service-template/compare/v1.2.44...v1.2.45) (2023-01-04)
+- [`5542971`](https://github.com/alexfalkowski/go-service-template/commit/55429718926b54b701bcc85112812ab63e2e38f8) build: rename action (#70)
 
-### [1.2.44](https://github.com/alexfalkowski/go-service-template/compare/v1.2.43...v1.2.44) (2023-01-02)
+## [v1.2.41](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.41) - 2022-12-23
 
-### [1.2.43](https://github.com/alexfalkowski/go-service-template/compare/v1.2.42...v1.2.43) (2022-12-28)
+## [v1.2.40](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.40) - 2022-12-22
 
-### [1.2.42](https://github.com/alexfalkowski/go-service-template/compare/v1.2.41...v1.2.42) (2022-12-26)
+## [v1.2.39](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.39) - 2022-12-21
 
-### [1.2.41](https://github.com/alexfalkowski/go-service-template/compare/v1.2.40...v1.2.41) (2022-12-23)
+## [v1.2.38](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.38) - 2022-12-21
 
-### [1.2.40](https://github.com/alexfalkowski/go-service-template/compare/v1.2.39...v1.2.40) (2022-12-22)
+## [v1.2.37](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.37) - 2022-12-19
 
-### [1.2.39](https://github.com/alexfalkowski/go-service-template/compare/v1.2.38...v1.2.39) (2022-12-21)
+## [v1.2.36](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.36) - 2022-12-19
 
-### [1.2.38](https://github.com/alexfalkowski/go-service-template/compare/v1.2.37...v1.2.38) (2022-12-21)
+## [v1.2.35](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.35) - 2022-12-17
 
-### [1.2.37](https://github.com/alexfalkowski/go-service-template/compare/v1.2.36...v1.2.37) (2022-12-19)
+- [`64a22e3`](https://github.com/alexfalkowski/go-service-template/commit/64a22e3ee346e59270e96b3a62d64eeefc8a1cd5) build(deps): update buf versions (#63)
 
-### [1.2.36](https://github.com/alexfalkowski/go-service-template/compare/v1.2.35...v1.2.36) (2022-12-19)
+## [v1.2.34](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.34) - 2022-12-17
 
-### [1.2.35](https://github.com/alexfalkowski/go-service-template/compare/v1.2.34...v1.2.35) (2022-12-17)
+## [v1.2.33](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.33) - 2022-12-13
 
-### [1.2.34](https://github.com/alexfalkowski/go-service-template/compare/v1.2.33...v1.2.34) (2022-12-17)
+## [v1.2.32](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.32) - 2022-12-12
 
-### [1.2.33](https://github.com/alexfalkowski/go-service-template/compare/v1.2.32...v1.2.33) (2022-12-13)
+## [v1.2.31](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.31) - 2022-12-09
 
-### [1.2.32](https://github.com/alexfalkowski/go-service-template/compare/v1.2.31...v1.2.32) (2022-12-12)
+## [v1.2.30](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.30) - 2022-12-08
 
-### [1.2.31](https://github.com/alexfalkowski/go-service-template/compare/v1.2.30...v1.2.31) (2022-12-09)
+## [v1.2.29](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.29) - 2022-12-08
 
-### [1.2.30](https://github.com/alexfalkowski/go-service-template/compare/v1.2.29...v1.2.30) (2022-12-08)
+## [v1.2.28](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.28) - 2022-12-07
 
-### [1.2.29](https://github.com/alexfalkowski/go-service-template/compare/v1.2.28...v1.2.29) (2022-12-08)
+## [v1.2.27](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.27) - 2022-12-07
 
-### [1.2.28](https://github.com/alexfalkowski/go-service-template/compare/v1.2.27...v1.2.28) (2022-12-07)
+## [v1.2.26](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.26) - 2022-12-01
 
-### [1.2.27](https://github.com/alexfalkowski/go-service-template/compare/v1.2.26...v1.2.27) (2022-12-07)
+## [v1.2.25](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.25) - 2022-11-30
 
-### [1.2.26](https://github.com/alexfalkowski/go-service-template/compare/v1.2.25...v1.2.26) (2022-12-01)
+## [v1.2.24](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.24) - 2022-11-29
 
-### [1.2.25](https://github.com/alexfalkowski/go-service-template/compare/v1.2.24...v1.2.25) (2022-11-30)
+## [v1.2.23](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.23) - 2022-11-29
 
-### [1.2.24](https://github.com/alexfalkowski/go-service-template/compare/v1.2.23...v1.2.24) (2022-11-29)
+- [`8007f79`](https://github.com/alexfalkowski/go-service-template/commit/8007f793e5b93fe63d1b01fbf7b794906864d405) build(deps): update ruby to v3.1.3 (#51)
 
-### [1.2.23](https://github.com/alexfalkowski/go-service-template/compare/v1.2.22...v1.2.23) (2022-11-29)
+## [v1.2.22](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.22) - 2022-11-22
 
-### [1.2.22](https://github.com/alexfalkowski/go-service-template/compare/v1.2.21...v1.2.22) (2022-11-22)
+## [v1.2.21](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.21) - 2022-11-17
 
-### [1.2.21](https://github.com/alexfalkowski/go-service-template/compare/v1.2.20...v1.2.21) (2022-11-17)
+## [v1.2.20](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.20) - 2022-11-15
 
-### [1.2.20](https://github.com/alexfalkowski/go-service-template/compare/v1.2.19...v1.2.20) (2022-11-15)
+## [v1.2.19](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.19) - 2022-11-14
 
-### [1.2.19](https://github.com/alexfalkowski/go-service-template/compare/v1.2.18...v1.2.19) (2022-11-14)
+## [v1.2.18](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.18) - 2022-11-09
 
-### [1.2.18](https://github.com/alexfalkowski/go-service-template/compare/v1.2.17...v1.2.18) (2022-11-09)
+## [v1.2.17](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.17) - 2022-11-03
 
-### [1.2.17](https://github.com/alexfalkowski/go-service-template/compare/v1.2.16...v1.2.17) (2022-11-03)
+## [v1.2.16](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.16) - 2022-11-02
 
-### [1.2.16](https://github.com/alexfalkowski/go-service-template/compare/v1.2.15...v1.2.16) (2022-11-02)
+## [v1.2.15](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.15) - 2022-11-02
 
-### [1.2.15](https://github.com/alexfalkowski/go-service-template/compare/v1.2.14...v1.2.15) (2022-11-02)
+## [v1.2.14](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.14) - 2022-10-28
 
-### [1.2.14](https://github.com/alexfalkowski/go-service-template/compare/v1.2.13...v1.2.14) (2022-10-28)
+## [v1.2.13](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.13) - 2022-10-28
 
-### [1.2.13](https://github.com/alexfalkowski/go-service-template/compare/v1.2.12...v1.2.13) (2022-10-28)
+## [v1.2.12](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.12) - 2022-10-27
 
-### [1.2.12](https://github.com/alexfalkowski/go-service-template/compare/v1.2.11...v1.2.12) (2022-10-27)
+## [v1.2.11](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.11) - 2022-10-27
 
-### [1.2.11](https://github.com/alexfalkowski/go-service-template/compare/v1.2.10...v1.2.11) (2022-10-27)
+## [v1.2.10](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.10) - 2022-10-26
 
-### [1.2.10](https://github.com/alexfalkowski/go-service-template/compare/v1.2.9...v1.2.10) (2022-10-26)
+## [v1.2.9](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.9) - 2022-10-20
 
-### [1.2.9](https://github.com/alexfalkowski/go-service-template/compare/v1.2.8...v1.2.9) (2022-10-20)
+## [v1.2.8](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.8) - 2022-10-19
 
-### [1.2.8](https://github.com/alexfalkowski/go-service-template/compare/v1.2.7...v1.2.8) (2022-10-19)
+## [v1.2.7](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.7) - 2022-10-18
 
-### [1.2.7](https://github.com/alexfalkowski/go-service-template/compare/v1.2.6...v1.2.7) (2022-10-18)
+## [v1.2.6](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.6) - 2022-10-15
 
-### [1.2.6](https://github.com/alexfalkowski/go-service-template/compare/v1.2.5...v1.2.6) (2022-10-15)
+## [v1.2.5](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.5) - 2022-10-14
 
-### [1.2.5](https://github.com/alexfalkowski/go-service-template/compare/v1.2.4...v1.2.5) (2022-10-14)
+## [v1.2.4](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.4) - 2022-10-13
 
-### [1.2.4](https://github.com/alexfalkowski/go-service-template/compare/v1.2.3...v1.2.4) (2022-10-13)
+## [v1.2.3](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.3) - 2022-10-12
 
-### [1.2.3](https://github.com/alexfalkowski/go-service-template/compare/v1.2.2...v1.2.3) (2022-10-12)
+## [v1.2.2](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.2) - 2022-10-08
 
-### [1.2.2](https://github.com/alexfalkowski/go-service-template/compare/v1.2.1...v1.2.2) (2022-10-08)
+- [`19ab916`](https://github.com/alexfalkowski/go-service-template/commit/19ab91697e0d7cbf209c8eb89bb0ff3aef08bfd4) test: remove unused config (#28)
 
-### [1.2.1](https://github.com/alexfalkowski/go-service-template/compare/v1.2.0...v1.2.1) (2022-10-08)
+## [v1.2.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.1) - 2022-10-08
 
-## [1.2.0](https://github.com/alexfalkowski/go-service-template/compare/v1.1.23...v1.2.0) (2022-10-06)
+## [v1.2.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.2.0) - 2022-10-06
 
+- [`43d41b7`](https://github.com/alexfalkowski/go-service-template/commit/43d41b728004fb498fa41f933e8ee50c5b56d323) feat(new): add ability to create new project (#26)
 
-### Features
+## [v1.1.23](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.23) - 2022-10-06
 
-* **new:** add ability to create new project ([#26](https://github.com/alexfalkowski/go-service-template/issues/26)) ([43d41b7](https://github.com/alexfalkowski/go-service-template/commit/43d41b728004fb498fa41f933e8ee50c5b56d323))
+## [v1.1.22](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.22) - 2022-10-03
 
-### [1.1.23](https://github.com/alexfalkowski/go-service-template/compare/v1.1.22...v1.1.23) (2022-10-06)
+## [v1.1.21](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.21) - 2022-09-29
 
-### [1.1.22](https://github.com/alexfalkowski/go-service-template/compare/v1.1.21...v1.1.22) (2022-10-03)
+## [v1.1.20](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.20) - 2022-09-28
 
-### [1.1.21](https://github.com/alexfalkowski/go-service-template/compare/v1.1.20...v1.1.21) (2022-09-29)
+## [v1.1.19](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.19) - 2022-09-27
 
-### [1.1.20](https://github.com/alexfalkowski/go-service-template/compare/v1.1.19...v1.1.20) (2022-09-28)
+## [v1.1.18](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.18) - 2022-09-19
 
-### [1.1.19](https://github.com/alexfalkowski/go-service-template/compare/v1.1.18...v1.1.19) (2022-09-27)
+## [v1.1.17](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.17) - 2022-09-16
 
-### [1.1.18](https://github.com/alexfalkowski/go-service-template/compare/v1.1.17...v1.1.18) (2022-09-19)
+## [v1.1.16](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.16) - 2022-09-16
 
-### [1.1.17](https://github.com/alexfalkowski/go-service-template/compare/v1.1.16...v1.1.17) (2022-09-16)
+- [`844c8d3`](https://github.com/alexfalkowski/go-service-template/commit/844c8d33805d358f2ce1d36703481d3d860803d4) style: remove unused linters (#17)
 
-### [1.1.16](https://github.com/alexfalkowski/go-service-template/compare/v1.1.15...v1.1.16) (2022-09-16)
+## [v1.1.15](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.15) - 2022-09-13
 
-### [1.1.15](https://github.com/alexfalkowski/go-service-template/compare/v1.1.14...v1.1.15) (2022-09-13)
+## [v1.1.14](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.14) - 2022-09-12
 
-### [1.1.14](https://github.com/alexfalkowski/go-service-template/compare/v1.1.13...v1.1.14) (2022-09-12)
+## [v1.1.13](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.13) - 2022-09-08
 
-### [1.1.13](https://github.com/alexfalkowski/go-service-template/compare/v1.1.12...v1.1.13) (2022-09-08)
+- [`f304b72`](https://github.com/alexfalkowski/go-service-template/commit/f304b72c2de32f62c57fce7e9f63aa40b2559bd4) build(deps): update (#14)
 
-### [1.1.12](https://github.com/alexfalkowski/go-service-template/compare/v1.1.11...v1.1.12) (2022-09-08)
+## [v1.1.12](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.12) - 2022-09-08
 
-### [1.1.11](https://github.com/alexfalkowski/go-service-template/compare/v1.1.10...v1.1.11) (2022-09-08)
+## [v1.1.11](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.11) - 2022-09-08
 
-### [1.1.10](https://github.com/alexfalkowski/go-service-template/compare/v1.1.9...v1.1.10) (2022-09-01)
+## [v1.1.10](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.10) - 2022-09-01
 
-### [1.1.9](https://github.com/alexfalkowski/go-service-template/compare/v1.1.8...v1.1.9) (2022-08-31)
+## [v1.1.9](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.9) - 2022-08-31
 
-### [1.1.8](https://github.com/alexfalkowski/go-service-template/compare/v1.1.7...v1.1.8) (2022-08-29)
+## [v1.1.8](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.8) - 2022-08-29
 
-### [1.1.7](https://github.com/alexfalkowski/go-service-template/compare/v1.1.6...v1.1.7) (2022-08-24)
+## [v1.1.7](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.7) - 2022-08-24
 
-### [1.1.6](https://github.com/alexfalkowski/go-service-template/compare/v1.1.5...v1.1.6) (2022-08-23)
+## [v1.1.6](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.6) - 2022-08-23
 
-### [1.1.5](https://github.com/alexfalkowski/go-service-template/compare/v1.1.4...v1.1.5) (2022-08-23)
+## [v1.1.5](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.5) - 2022-08-23
 
-### [1.1.4](https://github.com/alexfalkowski/go-service-template/compare/v1.1.3...v1.1.4) (2022-08-23)
+## [v1.1.4](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.4) - 2022-08-23
 
-### [1.1.3](https://github.com/alexfalkowski/go-service-template/compare/v1.1.2...v1.1.3) (2022-08-23)
+## [v1.1.3](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.3) - 2022-08-23
 
-### [1.1.2](https://github.com/alexfalkowski/go-service-template/compare/v1.1.1...v1.1.2) (2022-08-19)
+- [`89c36fd`](https://github.com/alexfalkowski/go-service-template/commit/89c36fd49c4dac7ce30e549045d3519ae35b7a73) build: remove docker lint (#6)
 
-### [1.1.1](https://github.com/alexfalkowski/go-service-template/compare/v1.1.0...v1.1.1) (2022-08-12)
+## [v1.1.2](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.2) - 2022-08-19
 
-## 1.1.0 (2022-08-10)
+## [v1.1.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.1) - 2022-08-12
 
+## [v1.1.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.1.0) - 2022-08-10
 
-### Features
-
-* add initial template ([#1](https://github.com/alexfalkowski/go-service-template/issues/1)) ([34fceeb](https://github.com/alexfalkowski/go-service-template/commit/34fceeb302a456081400f7cb5c594198c82f12e6))
+- [`34fceeb`](https://github.com/alexfalkowski/go-service-template/commit/34fceeb302a456081400f7cb5c594198c82f12e6) feat: add initial template (#1)
+- [`776c390`](https://github.com/alexfalkowski/go-service-template/commit/776c390f1db18ba80c0511bb387e9e9ba654674e) Initial commit
