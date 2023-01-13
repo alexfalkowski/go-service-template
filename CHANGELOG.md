@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.7.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.7.0) - 2023-01-13
+
+- [`35f0008`](https://github.com/alexfalkowski/go-service-template/commit/35f0008f959265c0f83f350013450484e18e6583) feat(api): add service (#102)
+- [`5ed3c1d`](https://github.com/alexfalkowski/go-service-template/commit/5ed3c1d8f03db827cb7967ec955f700909a188d9) ci: resource_class: large (#101)
+- [`c31c6d3`](https://github.com/alexfalkowski/go-service-template/commit/c31c6d3f2ce72318c68435cad55874f93b86e16a) build: update bin (#100)
+- [`d01a51e`](https://github.com/alexfalkowski/go-service-template/commit/d01a51e9cfeb41703efc270c458e51b28542a20d) build: update bin (#99)
+- [`4134c9b`](https://github.com/alexfalkowski/go-service-template/commit/4134c9b2585c4fa1c429c4cfb9683181b4472ee0) build(deps): update submodules (#98)
+
 ## [v1.6.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.6.0) - 2023-01-13
 
 - [`c9fbccb`](https://github.com/alexfalkowski/go-service-template/commit/c9fbccb5c6198ccb215443523746ce3249b0e43e) feat(bin): update submodule  (#96)
