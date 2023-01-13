@@ -16,6 +16,13 @@ rm -rf "$path/.git" "$path/vendor" "$path/test/vendor" "$path/tools/new" "$path/
 
 # Replace name in files.
 find "$path" -type f -exec gsed -i "s/go-service-template/$name/g" {} +
+
+# Override test files.
 find "$path/test" -type f -name "*.rb" -exec gsed -i "s/Example/${name^}/g" {} +
 find "$path/test" -type f -name "*.rb" -exec gsed -i "s/example/$name/g" {} +
 mv "$path/test/lib/example.rb" "$path/test/lib/$name.rb"
+
+# Move service for API.
+mkdir -p "$path/api/$name/v1"
+mv "$path/api/service/v1/service.proto" "$path/api/$name/v1/service.proto"
+rm -rf "$path/api/service"

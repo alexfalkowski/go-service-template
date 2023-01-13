@@ -1,14 +1,5 @@
-lint:
-	buf lint || true
+include ../bin/build/make/buf.mak
 
-format:
-	buf format -w
-
-generate:
-	buf generate
-
-update-all:
-	buf mod update
-
+# Buf breaking changes.
 breaking:
 	buf breaking --against 'https://github.com/alexfalkowski/go-service-template.git#branch=master,subdir=api' || true
