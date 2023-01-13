@@ -2,6 +2,15 @@
 
 include bin/build/make/service.mak
 
+# Get git submodule.
+git-submodule-get:
+	git submodule sync
+	git submodule update --init
+
+# Update git submodule.
+git-submodule-update:
+	git submodule foreach git pull origin master
+
 # Build release binary.
 build:
 	go build -race -ldflags="-X 'github.com/alexfalkowski/go-service-template/cmd.Version=latest'" -mod vendor -o go-service-template main.go
