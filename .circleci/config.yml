@@ -6,6 +6,8 @@ jobs:
       - image: alexfalkowski/go:1.19-3.1
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - run: make dep
       - run: make lint
       - run: make sec
@@ -18,12 +20,16 @@ jobs:
       - image: alexfalkowski/release:3.1
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - run: release
   docker:
     docker:
       - image: alexfalkowski/go:1.19-3.1
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - run: make assets
       - setup_remote_docker
       - run:
@@ -49,3 +55,5 @@ workflows:
           filters:
             branches:
               only: master
+
+# VS Code Extension Version: 1.5.1
