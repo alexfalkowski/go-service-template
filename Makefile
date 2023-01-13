@@ -1,4 +1,4 @@
-.PHONY: vendor assets
+.PHONY: vendor
 
 include bin/build/make/service.mak
 
