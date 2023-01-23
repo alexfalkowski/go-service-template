@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.9.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.9.1) - 2023-01-23
+
+- [`3dc9680`](https://github.com/alexfalkowski/go-service-template/commit/3dc9680d1cb1bca469332963d6c1901ff06b1660) fix(deps): bump github.com/alexfalkowski/go-service from 1.82.0 to 1.82.2 (#109)
+- [`0508d08`](https://github.com/alexfalkowski/go-service-template/commit/0508d08eed33d9024745fb4dbb459c7277b74c2b) build(deps): bump rubocop from 1.43.0 to 1.44.0 in /test (#108)
+- [`b995c04`](https://github.com/alexfalkowski/go-service-template/commit/b995c043222682a272e003196339bb46838747e5) test(deps): update (#107)
+- [`93444be`](https://github.com/alexfalkowski/go-service-template/commit/93444be87566b0013195ba82021e78b501a14dd9) build(deps): update bin (#106)
+
 ## [v1.9.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.9.0) - 2023-01-18
 
 - [`1f22b62`](https://github.com/alexfalkowski/go-service-template/commit/1f22b62f568b586877437a7e99cf9299947b6cba) feat(cmd): add fx module (#105)
