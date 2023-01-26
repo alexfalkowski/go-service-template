@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.9.3](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.9.3) - 2023-01-26
+
+- [`be83182`](https://github.com/alexfalkowski/go-service-template/commit/be831824ad0c4d38c611fb47abeacbd0f126fa16) fix(deps): bump github.com/alexfalkowski/go-service from 1.82.3 to 1.82.4 (#113)
+- [`048a088`](https://github.com/alexfalkowski/go-service-template/commit/048a088eed1229fdd23d0babeeb1a8f90d0d6e5b) ci: bundler should be build (#112)
+
 ## [v1.9.2](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.9.2) - 2023-01-25
 
 - [`f4374a8`](https://github.com/alexfalkowski/go-service-template/commit/f4374a8a064bad90d9e784f6ce8437420065d6d8) fix(deps): bump github.com/alexfalkowski/go-service from 1.82.2 to 1.82.3 (#111)
