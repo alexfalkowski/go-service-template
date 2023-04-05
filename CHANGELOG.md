@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.12.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.12.1) - 2023-04-05
+
+- [`5e08c56`](https://github.com/alexfalkowski/go-service-template/commit/5e08c5603a6d75a2260abfc774772f31664b70c7) fix(deps): bump golang from 1.20.2-bullseye to 1.20.3-bullseye (#150)
+- [`cf47f3b`](https://github.com/alexfalkowski/go-service-template/commit/cf47f3b63fe15d3befd62e72d01a662a618a74c9) build(deps): bump rubocop from 1.48.1 to 1.49.0 in /test (#149)
+
 ## [v1.12.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.12.0) - 2023-03-31
 
 - [`e244c1a`](https://github.com/alexfalkowski/go-service-template/commit/e244c1a5d1f9ef6f8f9c666b5d259d034b105f8e) feat: replace opentracing with otel (#148)
