@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/alexfalkowski/go-health v1.12.0
-	github.com/alexfalkowski/go-service v1.86.3
+	github.com/alexfalkowski/go-service v1.86.4
 	go.uber.org/fx v1.19.2
 )
 
@@ -72,10 +72,10 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/crypto v0.7.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/sys v0.7.0 // indirect
+	golang.org/x/text v0.9.0 // indirect
 	google.golang.org/genproto v0.0.0-20230223222841-637eb2293923 // indirect
 	google.golang.org/grpc v1.54.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
