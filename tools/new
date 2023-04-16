@@ -12,7 +12,7 @@ mkdir -p "$path"
 cp -R . "$path"
 
 # Remove files that are not needed.
-rm -rf "$path/.git" "$path/vendor" "$path/test/vendor" "$path/tools/new" "$path/CHANGELOG.md" "$path/go-service-template"
+rm -rf "$path/.git" "${path:?}/bin" "$path/vendor" "$path/test/vendor" "$path/tools/new" "$path/CHANGELOG.md" "$path/go-service-template"
 
 # Replace name in files.
 find "$path" -type f -exec gsed -i "s/go-service-template/$name/g" {} +
@@ -27,3 +27,7 @@ mkdir -p "$path/api/$name/v1"
 mv "$path/api/service/v1/service.proto" "$path/api/$name/v1/service.proto"
 gsed -i "s/service/$name/g" "$path/api/$name/v1/service.proto"
 rm -rf "$path/api/service"
+
+# Setup git.
+(cd "$path" && git init -q && git add -A && git commit -m "feat: setup with go-service-template")
+(cd "$path" && git submodule -q add git@github.com:alexfalkowski/bin.git && git add -A && git commit --amend --no-edit)
