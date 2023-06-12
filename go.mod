@@ -4,12 +4,12 @@ go 1.20
 
 require (
 	github.com/alexfalkowski/go-health v1.12.1
-	github.com/alexfalkowski/go-service v1.86.26
+	github.com/alexfalkowski/go-service v1.86.28
 	go.uber.org/fx v1.19.3
 )
 
 require (
-	github.com/BurntSushi/toml v1.3.1 // indirect
+	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/avast/retry-go/v3 v3.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
