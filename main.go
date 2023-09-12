@@ -5,6 +5,7 @@ import (
 
 	"github.com/alexfalkowski/go-service-template/cmd"
 	scmd "github.com/alexfalkowski/go-service/cmd"
+	_ "go.uber.org/automaxprocs"
 )
 
 func main() {
