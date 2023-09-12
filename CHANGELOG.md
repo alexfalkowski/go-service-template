@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.14.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.14.1) - 2023-09-12
+
+- [`a5940de`](https://github.com/alexfalkowski/go-service-template/commit/a5940dedd1240d6a44af5cebf41ff317e2c068a1) fix(deps): upgrade to github.com/alexfalkowski/go-service v1.88.0 (#239)
+
 ## [v1.14.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.14.0) - 2023-09-12
 
 - [`d6bcf19`](https://github.com/alexfalkowski/go-service-template/commit/d6bcf19ef0b9416693fc08b01ea48dd12afef5c3) feat: add go.uber.org/automaxprocs (#238)
