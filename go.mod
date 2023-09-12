@@ -4,8 +4,7 @@ go 1.21
 
 require (
 	github.com/alexfalkowski/go-health v1.13.0
-	github.com/alexfalkowski/go-service v1.87.3
-	go.uber.org/automaxprocs v1.5.3
+	github.com/alexfalkowski/go-service v1.88.0
 	go.uber.org/fx v1.20.0
 )
 
@@ -68,6 +67,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.16.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.16.0 // indirect
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
+	go.uber.org/automaxprocs v1.5.3 // indirect
 	go.uber.org/dig v1.17.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.25.0 // indirect
