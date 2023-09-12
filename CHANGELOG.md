@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.14.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.14.0) - 2023-09-12
+
+- [`d6bcf19`](https://github.com/alexfalkowski/go-service-template/commit/d6bcf19ef0b9416693fc08b01ea48dd12afef5c3) feat: add go.uber.org/automaxprocs (#238)
+- [`72417dd`](https://github.com/alexfalkowski/go-service-template/commit/72417dd8deaf92079900a299b89c65243bfc7330) build(deps): bump rubocop from 1.56.2 to 1.56.3 in /test (#237)
+
 ## [v1.13.5](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.13.5) - 2023-09-08
 
 - [`3e2b8bb`](https://github.com/alexfalkowski/go-service-template/commit/3e2b8bbf265bdc17b5db631e49fa7e77a02a230a) fix(deps): bump golang from 1.21.0-bullseye to 1.21.1-bullseye (#235)
