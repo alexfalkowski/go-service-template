@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.15.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.15.0) - 2023-09-13
+
+- [`f5822a8`](https://github.com/alexfalkowski/go-service-template/commit/f5822a847cd8818ca160e8dad9d48d1becbd3884) feat(otel): support native protocol (#241)
+- [`1d87066`](https://github.com/alexfalkowski/go-service-template/commit/1d870665b4c467df27702418def48cfac938e5b1) build(deps): bump cucumber from 9.0.1 to 9.0.2 in /test (#240)
+
 ## [v1.14.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.14.1) - 2023-09-12
 
 - [`a5940de`](https://github.com/alexfalkowski/go-service-template/commit/a5940dedd1240d6a44af5cebf41ff317e2c068a1) fix(deps): upgrade to github.com/alexfalkowski/go-service v1.88.0 (#239)
