@@ -1,9 +1,10 @@
 health:
   duration: 1s
   timeout: 1s
-otel:
-  host: localhost:4318
-  secure: false
+telemetry:
+  trace:
+    host: localhost:4318
+    secure: false
 transport:
   http:
     port: 8080
