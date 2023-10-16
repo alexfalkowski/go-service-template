@@ -2,14 +2,19 @@ package config
 
 import (
 	"github.com/alexfalkowski/go-service-template/health"
+	"github.com/alexfalkowski/go-service/cmd"
 	"github.com/alexfalkowski/go-service/config"
 )
 
 // NewConfigurator for config.
-func NewConfigurator() config.Configurator {
-	cfg := &Config{}
+func NewConfigurator(i *cmd.InputConfig) (config.Configurator, error) {
+	c := &Config{}
 
-	return cfg
+	if err := i.Unmarshal(c); err != nil {
+		return nil, err
+	}
+
+	return c, nil
 }
 
 func healthConfig(cfg config.Configurator) *health.Config {
