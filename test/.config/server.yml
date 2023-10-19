@@ -2,6 +2,8 @@ health:
   duration: 1s
   timeout: 1s
 telemetry:
+  logger:
+    level: error
   trace:
     host: localhost:4318
     secure: false
