@@ -4,7 +4,7 @@ health:
 telemetry:
   logger:
     level: error
-  trace:
+  tracer:
     host: localhost:4318
     secure: false
 transport:
