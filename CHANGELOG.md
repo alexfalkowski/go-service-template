@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.24.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.24.1) - 2023-10-24
+
+- [`59fb0fb`](https://github.com/alexfalkowski/go-service-template/commit/59fb0fba8eefe0dd0245ecad2dded6c977398451) fix(deps): bump github.com/alexfalkowski/go-service from 1.97.0 to 1.97.1 (#267)
+- [`74d8707`](https://github.com/alexfalkowski/go-service-template/commit/74d8707d7558e452d088ca7e649a500dc37cb4d0) build: fix tracer config (#266)
+
 ## [v1.24.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.24.0) - 2023-10-19
 
 - [`48f1bfa`](https://github.com/alexfalkowski/go-service-template/commit/48f1bfac9a13c39bad94820689c678b636d46205) feat(deps): update github.com/alexfalkowski/go-service to v1.97.0 (#265)
