@@ -5,6 +5,10 @@ set -e
 readonly name=$1
 readonly path=$2
 
+# Clean up before we copy
+rm -rf vendor test/vendor go-service-template
+make -C test clean-reports
+
 # Create the path if does not exist.
 mkdir -p "$path"
 
@@ -12,7 +16,7 @@ mkdir -p "$path"
 cp -R . "$path"
 
 # Remove files that are not needed.
-rm -rf "$path/.git" "${path:?}/bin" "$path/vendor" "$path/test/vendor" "$path/tools/new" "$path/CHANGELOG.md" "$path/go-service-template"
+rm -rf "$path/.git" "${path:?}/bin" "$path/tools/new" "$path/CHANGELOG.md"
 
 # Replace name in files.
 find "$path" -type f -exec gsed -i "s/go-service-template/$name/g" {} +
