@@ -32,6 +32,9 @@ mv "$path/api/service/v1/service.proto" "$path/api/$name/v1/service.proto"
 gsed -i "s/service/$name/g" "$path/api/$name/v1/service.proto"
 rm -rf "$path/api/service"
 
+# Fix style issues.
+(cd "$path" && make dep && make go-fix-lint && make ruby-fix-lint)
+
 # Setup git.
 (cd "$path" && git init -q && git add -A && git commit -q -m "feat: setup with go-service-template")
 (cd "$path" && git submodule -q add git@github.com:alexfalkowski/bin.git && git add -A && git commit -q --amend --no-edit)
