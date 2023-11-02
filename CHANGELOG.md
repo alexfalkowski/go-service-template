@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.27.2](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.27.2) - 2023-11-02
+
+- [`b136e1d`](https://github.com/alexfalkowski/go-service-template/commit/b136e1d24a7dc7cd251b8057da98251af6038edb) fix: service name for proto (#276)
+
 ## [v1.27.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.27.1) - 2023-11-02
 
 - [`d80a82b`](https://github.com/alexfalkowski/go-service-template/commit/d80a82b1594fd919ee086d3702491081e26f2f28) fix: make sure we lint (#275)
