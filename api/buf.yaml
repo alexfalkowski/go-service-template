@@ -1,5 +1,5 @@
 version: v1
-name: buf.build/alexfalkowski/go-service-template
+name: buf.build/afalkowski/go-service-template
 deps:
   - buf.build/googleapis/googleapis
 breaking:
