@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.28.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.28.1) - 2023-11-03
+
+- [`8cb29ba`](https://github.com/alexfalkowski/go-service-template/commit/8cb29baaa490a452c8a24f5d137f28475c4cec1e) fix(deps): bump github.com/alexfalkowski/go-service from 1.103.1 to 1.103.2 (#281)
+- [`a36e78d`](https://github.com/alexfalkowski/go-service-template/commit/a36e78d19e0b8ba99440f5d39559f5fcfc9567b6) build: push to buf (#280)
+- [`08e7a13`](https://github.com/alexfalkowski/go-service-template/commit/08e7a136d7dd3c480fca5587e88368082db1fade) build(deps): update bin (#279)
+- [`ae2c76e`](https://github.com/alexfalkowski/go-service-template/commit/ae2c76e88f55f960ac92de6d4f9b8a73322d0ef1) test: use grpc port (#278)
+
 ## [v1.28.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.28.0) - 2023-11-02
 
 - [`ffaf9ae`](https://github.com/alexfalkowski/go-service-template/commit/ffaf9ae43e3869b310b47fd10af1aab6beb02870) feat(deps): update github.com/alexfalkowski/go-service to v1.103.1 (#277)
