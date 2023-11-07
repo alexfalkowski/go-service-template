@@ -56,15 +56,16 @@ jobs:
 workflows:
   go-service-template:
     jobs:
-      - build-service
+      - build-service:
+          filters:
+              branches:
+                ignore: master
       - build-docker:
           filters:
               branches:
                 ignore: master
       - release:
           context: gh
-          requires:
-            - build-service
           filters:
             branches:
               only: master
