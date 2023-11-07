@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.28.3](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.28.3) - 2023-11-07
+
+- [`7d10320`](https://github.com/alexfalkowski/go-service-template/commit/7d103201f18693f44284421c8325114a4f8e1d52) fix(deps): bump github.com/alexfalkowski/go-service from 1.104.0 to 1.106.1 (#288)
+- [`a857aa6`](https://github.com/alexfalkowski/go-service-template/commit/a857aa6dac3ac27b6fc9cb7da07c2b0955227024) ci: add trivy (#287)
+- [`fb4bde4`](https://github.com/alexfalkowski/go-service-template/commit/fb4bde4fd7ac9ed4c083f0db1d936cf5ff0aff2b) ci: remove building service on master (#286)
+- [`27821dc`](https://github.com/alexfalkowski/go-service-template/commit/27821dcc18e589cdea5f2a10d4a62f998ddf8f41) ci: build docker (#285)
+
 ## [v1.28.2](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.28.2) - 2023-11-06
 
 - [`f142a00`](https://github.com/alexfalkowski/go-service-template/commit/f142a002ad4d1dbc5b15a4f558c310efa584fc32) fix(deps): bump github.com/alexfalkowski/go-service from 1.103.2 to 1.104.0 (#284)
