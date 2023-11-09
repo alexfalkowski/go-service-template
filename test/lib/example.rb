@@ -13,11 +13,15 @@ module Example
     end
 
     def server_config
-      @server_config ||= YAML.load_file('.config/server.config.yml')
+      @server_config ||= YAML.load_file('.config/server.yml')
     end
 
     def health_grpc
-      @health_grpc ||= Grpc::Health::V1::Health::Stub.new('localhost:9090', :this_channel_is_insecure)
+      @health_grpc ||= Grpc::Health::V1::Health::Stub.new('localhost:9090', :this_channel_is_insecure, channel_args: Example.user_agent)
+    end
+
+    def user_agent
+      @user_agent ||= { 'grpc.primary_user_agent' => server_config['transport']['grpc']['user_agent'] }
     end
   end
 
