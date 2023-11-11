@@ -1,10 +1,10 @@
-environment: production
+environment: development
 health:
   duration: 1s
   timeout: 1s
 telemetry:
   logger:
-    level: error
+    level: debug
   tracer:
     host: localhost:4318
     secure: false
