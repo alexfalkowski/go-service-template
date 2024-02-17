@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -e
+
+name=$(basename "$(pwd)")
+
+# Clean up.
+rm -rf vendor test/vendor go-service-template
+make -C test clean-reports
+
+# Replace name in files.
+find "." -type f -exec gsed -i "s/go-service-template/$name/g" {} +
+
+# Override test files.
+find "test" -type f -name "*.rb" -exec gsed -i "s/Example/${name^}/g" {} +
+find "test" -type f -name "*.rb" -exec gsed -i "s/example/$name/g" {} +
+mv "test/lib/example.rb" "test/lib/$name.rb"
+
+# Move service for API.
+mkdir -p "api/$name/v1"
+mv "api/service/v1/service.proto" "api/$name/v1/service.proto"
+gsed -i "s/service\.v1/$name\.v1/g" "api/$name/v1/service.proto"
+rm -rf "api/service"
+
+# Fix style issues.
+(make dep && make go-fix-lint && make ruby-fix-lint)
+
+# Remove files that are not needed.
+rm -rf "tools" "CHANGELOG.md"
+
+# Create branch.
+(git submodule sync && git submodule update --init)
+(git checkout -b feat/init && git add -A && git commit -q -m "feat: init $name" && git push -f origin feat/init)
