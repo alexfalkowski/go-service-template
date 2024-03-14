@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.47.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.47.1) - 2024-03-14
+
+- [`c67f049`](https://github.com/alexfalkowski/go-service-template/commit/c67f049fc527acc0fd74bedc4d55717a8a69c02c) fix(deps): bump github.com/alexfalkowski/go-service from 1.138.3 to 1.139.0 (#393)
+
 ## [v1.47.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.47.0) - 2024-03-14
 
 - [`89b0330`](https://github.com/alexfalkowski/go-service-template/commit/89b0330102f6f73273619d1158975b35aa8053d9) feat: change license to MIT (#392)
