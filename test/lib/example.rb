@@ -9,7 +9,7 @@ require 'grpc/health/v1/health_services_pb'
 module Example
   class << self
     def observability
-      @observability ||= Nonnative::Observability.new('http://localhost:8080')
+      @observability ||= Nonnative::Observability.new('http://localhost:11000')
     end
 
     def server_config
@@ -17,7 +17,7 @@ module Example
     end
 
     def health_grpc
-      @health_grpc ||= Grpc::Health::V1::Health::Stub.new('localhost:9090', :this_channel_is_insecure, channel_args: Example.user_agent)
+      @health_grpc ||= Grpc::Health::V1::Health::Stub.new('localhost:12000', :this_channel_is_insecure, channel_args: Example.user_agent)
     end
 
     def user_agent
