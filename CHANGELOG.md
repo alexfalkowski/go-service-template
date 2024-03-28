@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.53.1](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.53.1) - 2024-03-28
+
+- [`32ffcfc`](https://github.com/alexfalkowski/go-service-template/commit/32ffcfce1225eab56d573d2e88c4b09a5bb36e4c) fix(deps): update github.com/alexfalkowski/go-service to v1.149.1 (#413)
+- [`eced2e2`](https://github.com/alexfalkowski/go-service-template/commit/eced2e2f05f3f77792457a752c3261927013020b) build(deps): bump bin from `60071ae` to `a19d7ca` (#412)
+- [`ab07c23`](https://github.com/alexfalkowski/go-service-template/commit/ab07c23df9a3591c946ec712c83d94787b2ee776) build(dependabot): change prefixes (#411)
+- [`da0b4cd`](https://github.com/alexfalkowski/go-service-template/commit/da0b4cdb8b8ed87bead08d5c59327204ff32322e) build(make): add git commands (#410)
+
 ## [v1.53.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.53.0) - 2024-03-22
 
 - [`a9e2a45`](https://github.com/alexfalkowski/go-service-template/commit/a9e2a456fb025d51d5829d914f19cc0a599c036d) feat: add ldflags to minimise binary size (#408)
