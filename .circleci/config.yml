@@ -9,7 +9,25 @@ jobs:
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
+      - restore_cache:
+          name: restore go deps
+          keys:
+            - go-service-template-go-cache-{{ checksum "go.sum" }}
+      - restore_cache:
+          name: restore ruby deps
+          keys:
+            - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
       - run: make dep
+      - save_cache:
+          name: save go deps
+          key: go-service-template-go-cache-{{ checksum "go.sum" }}
+          paths:
+            - /home/circleci/go/pkg/mod
+      - save_cache:
+          name: save ruby deps
+          key: go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
+          paths:
+            - test/vendor
       - run: make lint
       - run: make sec
       - run: make features
