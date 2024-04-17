@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.57.5](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.57.5) - 2024-04-17
+
+- [`a1a147a`](https://github.com/alexfalkowski/go-service-template/commit/a1a147a06884746d645071e84c9e25dc128b16fb) fix(deps): bump github.com/alexfalkowski/go-service from 1.154.5 to 1.154.6 (#450)
+- [`203da7d`](https://github.com/alexfalkowski/go-service-template/commit/203da7d3d528433c59c1d98c3266e52088cd6146) build(ci): find the most recently generated cache (#449)
+- [`791a432`](https://github.com/alexfalkowski/go-service-template/commit/791a4328283b86a8adffbfe2a807107c34d89a43) test(deps): bump rubocop from 1.63.1 to 1.63.2 in /test (#448)
+- [`84ce2ee`](https://github.com/alexfalkowski/go-service-template/commit/84ce2ee2cfe0bc3326d796fdd8b06d9cf75b773e) build(ci): store tests (#447)
+- [`67204d3`](https://github.com/alexfalkowski/go-service-template/commit/67204d33f8070a039e6764156bfdb31463b58121) build(deps): bump bin from `b850b19` to `d5f116d` (#446)
+- [`435c721`](https://github.com/alexfalkowski/go-service-template/commit/435c721b6501d0463abaa0b02810facdad7ff5ba) build(deps): bump bin from `51c6ece` to `b850b19` (#445)
+- [`688a6d3`](https://github.com/alexfalkowski/go-service-template/commit/688a6d3c92fed578eafd677fc644278640363e87) build(ci): cache go build (#443)
+- [`899947a`](https://github.com/alexfalkowski/go-service-template/commit/899947a119af73c92f7bf02d0264393545b521f3) build(deps): bump bin from `a1fc5ac` to `51c6ece` (#444)
+
 ## [v1.57.4](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.57.4) - 2024-04-15
 
 - [`1050029`](https://github.com/alexfalkowski/go-service-template/commit/1050029fbd03e9d034b9e7247c6508abadf389c1) fix(deps): bump github.com/alexfalkowski/go-service from 1.154.4 to 1.154.5 (#442)
