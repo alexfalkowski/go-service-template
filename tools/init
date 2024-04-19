@@ -26,7 +26,7 @@ sed -i "s/service\.v1/$name\.v1/g" "api/$name/v1/service.proto"
 rm -rf "api/service"
 
 # Fix style issues.
-make dep && go fmt ./... && make ruby-fix-lint
+make dep && make format && make ruby-fix-lint
 
 # Remove files that are not needed.
 rm -rf "tools" "CHANGELOG.md"
