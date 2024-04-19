@@ -17,10 +17,6 @@ Why is it important to have a service.
 
 Explain the server side of things.
 
-## Worker
-
-Explain the worker side of things.
-
 ## Client
 
 Explain the client side of things.
@@ -63,7 +59,7 @@ The project follows the structure in [golang-standards/project-layout](https://g
 
 Please make sure that you have the following installed:
 - [Ruby](.ruby-version)
-- Golang
+- [Golang](go.mod)
 
 ### Style
 
@@ -71,27 +67,7 @@ This project favours the [Uber Go Style Guide](https://github.com/uber-go/guide/
 
 ### Setup
 
-The get yourself setup, please run the following:
-
-```sh
-make setup
-```
-
-### Binaries
-
-To make sure everything compiles for the app, please run the following:
-
-```sh
-make build-test
-```
-
-### Features
-
-To run all the features, please run the following:
-
-```sh
-make features
-```
+Check out [CI](.circleci/config.yml).
 
 ### Changes
 
