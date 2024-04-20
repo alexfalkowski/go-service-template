@@ -17,10 +17,6 @@ Why is it important to have a service.
 
 Explain the server side of things.
 
-## Client
-
-Explain the client side of things.
-
 ## Health
 
 The system defines a way to monitor all of it's dependencies.
