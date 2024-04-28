@@ -1,5 +1,4 @@
 [![CircleCI](https://circleci.com/gh/alexfalkowski/go-service-template.svg?style=svg)](https://circleci.com/gh/alexfalkowski/go-service-template)
-[![Coverage Status](https://coveralls.io/repos/github/alexfalkowski/go-service-template/badge.svg?branch=master)](https://coveralls.io/github/alexfalkowski/go-service-template?branch=master)
 
 # Service
 
