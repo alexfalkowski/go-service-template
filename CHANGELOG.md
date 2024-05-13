@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.69.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.69.0) - 2024-05-13
+
+- [`1258086`](https://github.com/alexfalkowski/go-service-template/commit/125808625aeb34ea6da5092ba216c5e8a601acc3) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.189.2 (#514)
+- [`7f61698`](https://github.com/alexfalkowski/go-service-template/commit/7f61698663491074ff604242447aebb77853d8b6) build(deps): bump bin from `55a2500` to `93c02b7` (#512)
+- [`26eef90`](https://github.com/alexfalkowski/go-service-template/commit/26eef9066d70406654c4b9acbfa21faff829d788) build(deps): bump bin from `693b345` to `55a2500` (#511)
+- [`26be02d`](https://github.com/alexfalkowski/go-service-template/commit/26be02da79ae4491e1e1f3a19a11cd9e3b14ab0d) test(deps): bump rubocop from 1.63.4 to 1.63.5 in /test (#510)
+
 ## [v1.68.5](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.68.5) - 2024-05-08
 
 - [`fbdd1d9`](https://github.com/alexfalkowski/go-service-template/commit/fbdd1d94477fa2cc7e05cf8696f9b834328cfdb7) fix(deps): upgraded github.com/alexfalkowski/go-service to v1.179.4 (#509)
