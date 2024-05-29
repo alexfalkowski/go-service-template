@@ -5,7 +5,6 @@ import (
 	"github.com/alexfalkowski/go-service-template/server/health"
 	"github.com/alexfalkowski/go-service/compressor"
 	"github.com/alexfalkowski/go-service/debug"
-	"github.com/alexfalkowski/go-service/env"
 	"github.com/alexfalkowski/go-service/feature"
 	"github.com/alexfalkowski/go-service/marshaller"
 	"github.com/alexfalkowski/go-service/runtime"
@@ -17,7 +16,7 @@ import (
 
 // ServerOptions for cmd.
 var ServerOptions = []fx.Option{
-	env.Module, runtime.Module, debug.Module,
+	runtime.Module, debug.Module,
 	compressor.Module, marshaller.Module, feature.Module,
 	telemetry.Module, metrics.Module, transport.Module,
 	config.Module, health.Module, Module,
