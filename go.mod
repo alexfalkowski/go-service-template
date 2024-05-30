@@ -4,7 +4,7 @@ go 1.22.3
 
 require (
 	github.com/alexfalkowski/go-health v1.17.0
-	github.com/alexfalkowski/go-service v1.209.0
+	github.com/alexfalkowski/go-service v1.209.1
 	go.uber.org/fx v1.21.1
 )
 
@@ -15,7 +15,7 @@ require (
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1 // indirect
 	github.com/arl/statsviz v0.6.0 // indirect
 	github.com/avast/retry-go/v3 v3.1.1 // indirect
-	github.com/beevik/ntp v1.4.2 // indirect
+	github.com/beevik/ntp v1.4.3 // indirect
 	github.com/beevik/nts v0.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
