@@ -5,16 +5,24 @@ updates:
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "fix"
-      prefix-development: "build"
+      prefix: "feat"
+      prefix-development: "fix"
+      include: "scope"
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "test"
+      prefix-development: "test"
       include: "scope"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "fix"
-      prefix-development: "build"
+      prefix: "feat"
+      prefix-development: "fix"
       include: "scope"
   - package-ecosystem: "gitsubmodule"
     directory: "/"
@@ -26,11 +34,3 @@ updates:
       include: "scope"
     allow:
       - dependency-name: "bin"
-  - package-ecosystem: "bundler"
-    directory: "/test"
-    schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "test"
-      prefix-development: "test"
-      include: "scope"
