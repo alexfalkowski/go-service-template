@@ -2,6 +2,10 @@ environment: development
 health:
   duration: 1s
   timeout: 1s
+limiter:
+  kind: user-agent
+  tokens: 1000
+  interval: 1s
 telemetry:
   logger:
     level: debug
