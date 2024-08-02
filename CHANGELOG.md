@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.116.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.116.0) - 2024-08-02
+
+- [`adcfe97`](https://github.com/alexfalkowski/go-service-template/commit/adcfe9769dd8a5234f9a7012f1da1ffe3629eb54) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.265.0 (#612)
+- [`89d36d5`](https://github.com/alexfalkowski/go-service-template/commit/89d36d56179bd5c66512d29326552127bbe5bb66) test(deps): bump rubocop from 1.65.0 to 1.65.1 in /test (#611)
+- [`bd4a928`](https://github.com/alexfalkowski/go-service-template/commit/bd4a928a69322f925c2457357da835bd785406fb) test(deps): bump ruby-lsp from 0.17.9 to 0.17.10 in /test (#610)
+- [`3e86d29`](https://github.com/alexfalkowski/go-service-template/commit/3e86d291168cf3167672f9f7f40669110a305851) test(deps): bump ruby-lsp from 0.17.8 to 0.17.9 in /test (#609)
+- [`fa94784`](https://github.com/alexfalkowski/go-service-template/commit/fa94784149fb57e1497d930d1915ae8449f798d9) test(deps): bump nonnative from 1.80.0 to 1.81.0 in /test (#608)
+- [`977baab`](https://github.com/alexfalkowski/go-service-template/commit/977baaba43d70baba1f3d53f0f36be27bd58e1ea) test(deps): bump rexml from 3.3.1 to 3.3.2 in /test (#607)
+- [`6036803`](https://github.com/alexfalkowski/go-service-template/commit/603680375415892df917e0282aa4195e872eceb0) test(deps): bump ruby-lsp from 0.17.7 to 0.17.8 in /test (#606)
+- [`594fc82`](https://github.com/alexfalkowski/go-service-template/commit/594fc82a6f48626854d494d349b50437e11aa63b) build(ci): use docker caching (#605)
+- [`308957f`](https://github.com/alexfalkowski/go-service-template/commit/308957fa792f7a1a6bc45d67f4bb921a11341e73) build(deps): bump bin from `897d5f1` to `44badfa` (#604)
+- [`24925d1`](https://github.com/alexfalkowski/go-service-template/commit/24925d13f86e716ffff72d4f1c29a9dec17f9be7) test(deps): bump ruby-lsp from 0.17.6 to 0.17.7 in /test (#603)
+- [`2284fb5`](https://github.com/alexfalkowski/go-service-template/commit/2284fb561faeb1fba93aa7fd556b8b820f8591ba) test(deps): bump ruby-lsp from 0.17.4 to 0.17.6 in /test (#602)
+- [`2c65d85`](https://github.com/alexfalkowski/go-service-template/commit/2c65d85c7353f8e58e0f455edc19fab583475eb0) test(deps): bump rubocop from 1.64.1 to 1.65.0 in /test (#601)
+
 ## [v1.115.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.115.0) - 2024-07-09
 
 - [`a2872ad`](https://github.com/alexfalkowski/go-service-template/commit/a2872adf33bc8e4af0ae524c9a435b9fe16a1fa9) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.246.0 (#600)
