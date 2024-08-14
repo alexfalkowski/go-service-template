@@ -3,8 +3,8 @@ module github.com/alexfalkowski/go-service-template
 go 1.23
 
 require (
-	github.com/alexfalkowski/go-health v1.18.1
-	github.com/alexfalkowski/go-service v1.275.0
+	github.com/alexfalkowski/go-health v1.19.0
+	github.com/alexfalkowski/go-service v1.276.0
 	go.uber.org/fx v1.22.2
 )
 
