@@ -8,6 +8,7 @@ import (
 	"github.com/alexfalkowski/go-service/encoding"
 	"github.com/alexfalkowski/go-service/feature"
 	"github.com/alexfalkowski/go-service/runtime"
+	"github.com/alexfalkowski/go-service/sync"
 	"github.com/alexfalkowski/go-service/telemetry"
 	"github.com/alexfalkowski/go-service/transport"
 	"go.uber.org/fx"
@@ -15,8 +16,8 @@ import (
 
 // ServerOptions for cmd.
 var ServerOptions = []fx.Option{
+	sync.Module, compress.Module, encoding.Module,
 	runtime.Module, debug.Module, feature.Module,
-	compress.Module, encoding.Module,
 	telemetry.Module, transport.Module,
 	config.Module, health.Module, Module,
 }
