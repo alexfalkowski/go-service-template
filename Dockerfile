@@ -10,7 +10,7 @@ RUN go mod download
 COPY . ./
 RUN CGO_ENABLED=0 go build -ldflags="-s -w -X 'github.com/alexfalkowski/go-service-template/cmd.Version=${version}'" -a -o go-service-template main.go
 
-FROM gcr.io/distroless/base-debian12
+FROM gcr.io/distroless/static
 
 WORKDIR /
 
