@@ -2,6 +2,8 @@ module github.com/alexfalkowski/go-service-template
 
 go 1.23
 
+toolchain go1.23.0
+
 require (
 	github.com/alexfalkowski/go-health v1.19.0
 	github.com/alexfalkowski/go-service v1.307.2
