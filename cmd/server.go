@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/alexfalkowski/go-service-template/config"
-	"github.com/alexfalkowski/go-service-template/server/health"
+	"github.com/alexfalkowski/go-service-template/health"
 	"github.com/alexfalkowski/go-service/compress"
 	"github.com/alexfalkowski/go-service/debug"
 	"github.com/alexfalkowski/go-service/encoding"

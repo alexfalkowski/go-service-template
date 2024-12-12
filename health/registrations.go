@@ -3,7 +3,6 @@ package health
 import (
 	"github.com/alexfalkowski/go-health/checker"
 	"github.com/alexfalkowski/go-health/server"
-	h "github.com/alexfalkowski/go-service-template/health"
 	"github.com/alexfalkowski/go-service/health"
 	"github.com/alexfalkowski/go-service/time"
 	"go.uber.org/fx"
@@ -13,7 +12,7 @@ import (
 type Params struct {
 	fx.In
 
-	Health *h.Config
+	Health *Config
 }
 
 // NewRegistrations for health.
