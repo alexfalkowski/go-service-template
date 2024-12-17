@@ -8,12 +8,8 @@ require 'grpc/health/v1/health_services_pb'
 
 module Example
   class << self
-    def observability
-      @observability ||= Nonnative::Observability.new('http://localhost:11000')
-    end
-
-    def server_config
-      @server_config ||= Nonnative.configurations('.config/server.yml')
+    def config
+      @config ||= Nonnative.configurations('.config/server.yml')
     end
 
     def health_grpc
