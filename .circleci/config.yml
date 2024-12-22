@@ -37,7 +37,11 @@ jobs:
             - go-service-template-go-build-cache-
       - run: make lint
       - run: make sec
-      - run: make features
+      - run:
+          name: Features
+          command: make features
+          environment:
+            GODEBUG: allocfreetrace=1
       - run: make build analyse
       - save_cache:
           name: save go build cache
