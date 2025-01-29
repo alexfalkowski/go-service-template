@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.231.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.231.0) - 2025-01-29
+
+- [`eb5fe25`](https://github.com/alexfalkowski/go-service-template/commit/eb5fe2529337bac44c915cf69bef9e7d793fc412) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.393.0 (#845)
+- [`388a411`](https://github.com/alexfalkowski/go-service-template/commit/388a41123a0fff67ac6f1621f8fecd778078edd8) test(deps): bump nonnative from 1.91.0 to 1.92.0 in /test (#844)
+- [`bf85515`](https://github.com/alexfalkowski/go-service-template/commit/bf855154225af1e3c2711134ee63a2c90176731d) build(deps): bump bin from `cb313fe` to `5b56b0c` (#843)
+- [`4f0ef41`](https://github.com/alexfalkowski/go-service-template/commit/4f0ef41bcd703767925bdf7ec5261639ddde910c) test(deps): bump nonnative from 1.89.0 to 1.91.0 in /test (#841)
+- [`6661d3a`](https://github.com/alexfalkowski/go-service-template/commit/6661d3ae7205f929be670884ba892ffd9a922ca3) test(deps): bump ruby-lsp from 0.23.6 to 0.23.7 in /test (#842)
+- [`80d1915`](https://github.com/alexfalkowski/go-service-template/commit/80d1915dc1d0feb983f1425e8252c6d5fd6b884c) build(ci): update alexfalkowski/go:1.8 (#840)
+
 ## [v1.230.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.230.0) - 2025-01-28
 
 - [`f684f5c`](https://github.com/alexfalkowski/go-service-template/commit/f684f5ccc028f99fbd34c0856b4f583b6e48073e) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.391.0 (#839)
