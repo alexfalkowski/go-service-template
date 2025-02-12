@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/alexfalkowski/go-service-template/config"
-	"github.com/alexfalkowski/go-service-template/health"
+	"github.com/alexfalkowski/go-service-template/internal/config"
+	"github.com/alexfalkowski/go-service-template/internal/health"
 	"github.com/alexfalkowski/go-service/debug"
 	"github.com/alexfalkowski/go-service/feature"
 	"github.com/alexfalkowski/go-service/module"
