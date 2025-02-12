@@ -8,7 +8,7 @@ COPY go.mod go.sum ./
 RUN go mod download
 
 COPY . ./
-RUN CGO_ENABLED=0 go build -ldflags="-s -w -X 'github.com/alexfalkowski/go-service-template/cmd.Version=${version}' -extldflags '-static'" -tags netgo -a -o go-service-template main.go
+RUN CGO_ENABLED=0 go build -ldflags="-s -w -X 'github.com/alexfalkowski/go-service-template/internal/cmd.Version=${version}' -extldflags '-static'" -tags netgo -a -o go-service-template main.go
 
 FROM gcr.io/distroless/static
 

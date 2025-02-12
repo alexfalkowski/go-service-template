@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/alexfalkowski/go-service-template/cmd"
+	"github.com/alexfalkowski/go-service-template/internal/cmd"
 	sc "github.com/alexfalkowski/go-service/cmd"
 )
 
