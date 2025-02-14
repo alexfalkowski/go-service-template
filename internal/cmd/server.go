@@ -16,6 +16,6 @@ func RegisterServer(command *cmd.Command) {
 	command.AddServer("server", "Start go-service-template server",
 		module.Module, debug.Module, feature.Module,
 		telemetry.Module, transport.Module,
-		config.Module, health.Module, cmd.Module,
+		config.Module, health.Module, Module,
 	)
 }
