@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.266.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.266.0) - 2025-02-14
+
+- [`ea2e625`](https://github.com/alexfalkowski/go-service-template/commit/ea2e625cedf8a37b4d2e97457383ad7c8b4fe8d2) feat(container): remove dockerfile (#890)
+- [`e3b3c47`](https://github.com/alexfalkowski/go-service-template/commit/e3b3c473e0ad56603fd0f74740f5bb485defed23) build(deps): bump bin from `e1bf51d` to `9529428` (#889)
+- [`e667e3c`](https://github.com/alexfalkowski/go-service-template/commit/e667e3c234d59f8b1931799378469827e2c5d89c) build(deps): bump bin from `3e0336a` to `e1bf51d` (#888)
+
 ## [v1.265.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.265.0) - 2025-02-13
 
 - [`4c96d1f`](https://github.com/alexfalkowski/go-service-template/commit/4c96d1f5fb967fcdbb1918f0102a100e35ed654b) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.429.0 (#887)
