@@ -98,6 +98,7 @@ workflows:
       - build-docker:
           context: gh
       - release:
+          serial-group: << pipeline.git.branch >>-release
           context: gh
           requires:
             - build-service
@@ -106,6 +107,7 @@ workflows:
             branches:
               only: master
       - push-docker:
+          serial-group: << pipeline.git.branch >>-push-docker
           context: docker
           requires:
             - release
