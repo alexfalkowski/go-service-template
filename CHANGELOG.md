@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.308.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.308.0) - 2025-03-04
+
+- [`d4410ef`](https://github.com/alexfalkowski/go-service-template/commit/d4410efef669399c1856b5908536c0e3c69c786a) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.477.0 (#951)
+- [`e2ee2f6`](https://github.com/alexfalkowski/go-service-template/commit/e2ee2f65556e5de6b156354e1ca9320fd9a4cf14) build(ci): use the name of the job as it only runs on master (#950)
+- [`995b373`](https://github.com/alexfalkowski/go-service-template/commit/995b3736ef46b7bbae193c827c246140f0b15a7b) build(ci): always pull (#949)
+- [`f7496a8`](https://github.com/alexfalkowski/go-service-template/commit/f7496a8ad913e8b2657640d1157ead2d173a14f8) build(ci): use serial-group (#948)
+
 ## [v1.307.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.307.0) - 2025-03-03
 
 - [`98d05d0`](https://github.com/alexfalkowski/go-service-template/commit/98d05d0ab7ccb45bbf35d8ba089f722c2b832cc6) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.476.0 (#947)
