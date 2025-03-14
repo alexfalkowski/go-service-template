@@ -2,9 +2,11 @@ module github.com/alexfalkowski/go-service-template
 
 go 1.24.0
 
+toolchain go1.24.1
+
 require (
 	github.com/alexfalkowski/go-health v1.22.0
-	github.com/alexfalkowski/go-service v1.489.0
+	github.com/alexfalkowski/go-service v1.491.0
 	go.uber.org/fx v1.23.0
 )
 
