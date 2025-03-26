@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.336.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.336.0) - 2025-03-26
+
+- [`09c9573`](https://github.com/alexfalkowski/go-service-template/commit/09c957302907433209637c4440da09843b6d5ed3) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.515.0 (#990)
+- [`77ab9b5`](https://github.com/alexfalkowski/go-service-template/commit/77ab9b5d7cbbaf65726981e3a658bd2c02097079) build(deps): bump bin from `b887116` to `df23544` (#989)
+- [`f1abb1d`](https://github.com/alexfalkowski/go-service-template/commit/f1abb1d2ba77e164d78f0fc81a85d49e7c27fd11) build(ci): add help (#988)
+- [`a8cc361`](https://github.com/alexfalkowski/go-service-template/commit/a8cc3619802f475cc48ede8181c63139a6b7c9be) build(deps): bump bin from `8e1a9ac` to `b887116` (#987)
+
 ## [v1.335.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.335.0) - 2025-03-25
 
 - [`829e217`](https://github.com/alexfalkowski/go-service-template/commit/829e217160c2a455e211c263a3f404c146ff106c) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.514.0 (#986)
