@@ -19,6 +19,7 @@ jobs:
           keys:
             - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
             - go-service-template-ruby-cache-
+      - run: make clean
       - run: make dep
       - save_cache:
           name: save go deps
@@ -35,6 +36,7 @@ jobs:
           keys:
             - go-service-template-go-build-cache-{{ checksum "go.sum" }}
             - go-service-template-go-build-cache-
+      - run: make clean
       - run: make lint
       - run: make sec
       - run: make features
