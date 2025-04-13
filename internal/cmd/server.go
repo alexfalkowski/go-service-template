@@ -14,7 +14,7 @@ import (
 // RegisterServer for cmd.
 func RegisterServer(command *cmd.Command) {
 	flags := cmd.NewFlagSet("server")
-	flags.AddInput("env:CONFIG_FILE")
+	flags.AddInput("")
 
 	command.AddServer("server", "Start go-service-template server", flags,
 		module.Module, debug.Module, feature.Module,
