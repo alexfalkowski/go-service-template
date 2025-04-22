@@ -13,12 +13,10 @@ import (
 
 // RegisterServer for cmd.
 func RegisterServer(command *cmd.Command) {
-	flags := cmd.NewFlagSet("server")
-	flags.AddInput("")
-
-	command.AddServer("server", "Start go-service-template server", flags,
+	flags := command.AddServer("server", "Start go-service-template server",
 		module.Module, debug.Module, feature.Module,
 		telemetry.Module, transport.Module,
 		config.Module, health.Module, cmd.Module,
 	)
+	flags.AddInput("")
 }
