@@ -1,13 +1,15 @@
 package main
 
 import (
+	"context"
+
 	"github.com/alexfalkowski/go-service-template/internal/cmd"
 	sc "github.com/alexfalkowski/go-service/cmd"
 	"github.com/alexfalkowski/go-service/env"
 )
 
 func main() {
-	command().ExitOnError()
+	command().ExitOnError(context.Background())
 }
 
 func command() *sc.Command {
