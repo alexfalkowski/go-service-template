@@ -127,6 +127,7 @@ jobs:
   manifest-docker:
     docker:
       - image: alexfalkowski/go:2.27
+    working_directory: ~/go-service-template
     steps:
       - checkout
       - run: git submodule sync
