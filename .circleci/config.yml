@@ -173,6 +173,7 @@ workflows:
             branches:
               only: master
       - manifest-docker:
+          context: docker
           requires:
             - push-docker-amd64
             - push-docker-arm64
