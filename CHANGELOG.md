@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.481.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.481.0) - 2025-06-13
+
+- [`0eb2c93`](https://github.com/alexfalkowski/go-service-template/commit/0eb2c9340b827a2397df08be8be753cbf13bbfbf) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.65.0 to 2.66.0 (#1194)
+- [`e9ad166`](https://github.com/alexfalkowski/go-service-template/commit/e9ad166161ce2f25eedb55063cbb282aa22d66ba) build(ci): add context: docker for manifest-docker (#1196)
+
 ## [v1.480.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.480.0) - 2025-06-13
 
 - [`ea2b43a`](https://github.com/alexfalkowski/go-service-template/commit/ea2b43ae53771e6c2cb5bf4a27172b1e9036a5ae) feat(ci): build multi platform (#1195)
