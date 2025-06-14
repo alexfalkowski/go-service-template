@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.484.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.484.0) - 2025-06-14
+
+- [`e4a5a85`](https://github.com/alexfalkowski/go-service-template/commit/e4a5a85a3144fecec83f0c1874a1e1d3855f5813) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.67.0 (#1199)
+
 ## [v1.483.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.483.0) - 2025-06-13
 
 - [`7765af6`](https://github.com/alexfalkowski/go-service-template/commit/7765af65701bf7e873d66234d8c7243ef6160420) feat(ci): add working_directory for manifest-docker (#1198)
