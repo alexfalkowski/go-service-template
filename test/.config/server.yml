@@ -25,7 +25,6 @@ transport:
       backoff: 100ms
       timeout: 10s
     timeout: 5s
-    user_agent: "Example-server/1.0 HTTP/1.0"
   grpc:
     address: :12000
     retry:
@@ -33,4 +32,3 @@ transport:
       backoff: 100ms
       timeout: 10s
     timeout: 5s
-    user_agent: "Example-server/1.0 gRPC/1.0"
