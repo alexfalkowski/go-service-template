@@ -10,24 +10,24 @@ jobs:
       - run: git submodule sync
       - run: git submodule update --init
       - restore_cache:
-          name: restore go deps
+          name: restore go cache
           keys:
             - go-service-template-go-cache-{{ checksum "go.sum" }}
             - go-service-template-go-cache-
       - restore_cache:
-          name: restore ruby deps
+          name: restore ruby cache
           keys:
             - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
             - go-service-template-ruby-cache-
       - run: make clean
       - run: make dep
       - save_cache:
-          name: save go deps
+          name: save go cache
           key: go-service-template-go-cache-{{ checksum "go.sum" }}
           paths:
-            - /home/circleci/go/pkg/mod
+            - ~/go/pkg/mod
       - save_cache:
-          name: save ruby deps
+          name: save ruby cache
           key: go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
           paths:
             - test/vendor
@@ -37,7 +37,17 @@ jobs:
             - go-service-template-go-build-cache-{{ checksum "go.sum" }}
             - go-service-template-go-build-cache-
       - run: make clean
+      - restore_cache:
+          name: restore go lint cache
+          keys:
+            - go-service-template-go-lint-cache-{{ checksum "go.sum" }}
+            - go-service-template-go-lint-cache-
       - run: make lint
+      - save_cache:
+          name: save go lint cache
+          key: go-service-template-go-lint-cache-{{ checksum "go.sum" }}
+          paths:
+            - ~/.cache/golangci-lint
       - run: make sec
       - run: make trivy-repo
       - run: make features
@@ -47,7 +57,7 @@ jobs:
           name: save go build cache
           key: go-service-template-go-build-cache-{{ checksum "go.sum" }}
           paths:
-            - /home/circleci/.cache/go-build
+            - ~/.cache/go-build
       - run: make coverage
       - store_test_results:
           path: test/reports
