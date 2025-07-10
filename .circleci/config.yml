@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-service:
     docker:
-      - image: alexfalkowski/go:2.38
+      - image: alexfalkowski/go:2.40
     working_directory: ~/go-service-template
     steps:
       - checkout
@@ -12,40 +12,40 @@ jobs:
       - restore_cache:
           name: restore go cache
           keys:
-            - go-service-template-go-cache-{{ checksum "go.sum" }}
+            - go-service-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
             - go-service-template-go-cache-
       - restore_cache:
           name: restore ruby cache
           keys:
-            - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
+            - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}
             - go-service-template-ruby-cache-
       - run: make clean
       - run: make dep
       - save_cache:
           name: save go cache
-          key: go-service-template-go-cache-{{ checksum "go.sum" }}
+          key: go-service-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
           paths:
             - ~/go/pkg/mod
       - save_cache:
           name: save ruby cache
-          key: go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
+          key: go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}
           paths:
             - test/vendor
       - restore_cache:
           name: restore go build cache
           keys:
-            - go-service-template-go-build-cache-{{ checksum "go.sum" }}
+            - go-service-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
             - go-service-template-go-build-cache-
       - run: make clean
       - restore_cache:
           name: restore go lint cache
           keys:
-            - go-service-template-go-lint-cache-{{ checksum "go.sum" }}
+            - go-service-template-go-lint-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
             - go-service-template-go-lint-cache-
       - run: make lint
       - save_cache:
           name: save go lint cache
-          key: go-service-template-go-lint-cache-{{ checksum "go.sum" }}
+          key: go-service-template-go-lint-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
           paths:
             - ~/.cache/golangci-lint
       - run: make sec
@@ -55,7 +55,7 @@ jobs:
       - run: make analyse
       - save_cache:
           name: save go build cache
-          key: go-service-template-go-build-cache-{{ checksum "go.sum" }}
+          key: go-service-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
           paths:
             - ~/.cache/go-build
       - run: make coverage
@@ -67,7 +67,7 @@ jobs:
     resource_class: large
   release:
     docker:
-      - image: alexfalkowski/release:3.28
+      - image: alexfalkowski/release:3.30
     working_directory: ~/go-service-template
     steps:
       - checkout
@@ -78,7 +78,7 @@ jobs:
     resource_class: large
   build-docker-amd64:
     docker:
-      - image: alexfalkowski/go:2.38
+      - image: alexfalkowski/go:2.40
     working_directory: ~/go-service-template
     steps:
       - checkout
@@ -91,7 +91,7 @@ jobs:
     resource_class: large
   build-docker-arm64:
     docker:
-      - image: alexfalkowski/go:2.38
+      - image: alexfalkowski/go:2.40
     working_directory: ~/go-service-template
     steps:
       - checkout
@@ -104,7 +104,7 @@ jobs:
     resource_class: arm.medium
   push-docker-amd64:
     docker:
-      - image: alexfalkowski/go:2.38
+      - image: alexfalkowski/go:2.40
     working_directory: ~/go-service-template
     steps:
       - checkout
@@ -120,7 +120,7 @@ jobs:
     resource_class: large
   push-docker-arm64:
     docker:
-      - image: alexfalkowski/go:2.38
+      - image: alexfalkowski/go:2.40
     working_directory: ~/go-service-template
     steps:
       - checkout
@@ -136,7 +136,7 @@ jobs:
     resource_class: arm.medium
   manifest-docker:
     docker:
-      - image: alexfalkowski/go:2.38
+      - image: alexfalkowski/go:2.40
     working_directory: ~/go-service-template
     steps:
       - checkout
