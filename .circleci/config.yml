@@ -9,43 +9,44 @@ jobs:
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
+      - run: make source-key
       - restore_cache:
           name: restore go cache
           keys:
-            - go-service-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
+            - go-service-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
             - go-service-template-go-cache-
       - restore_cache:
           name: restore ruby cache
           keys:
-            - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}
+            - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}-{{ checksum ".source-key" }}
             - go-service-template-ruby-cache-
       - run: make clean
       - run: make dep
       - save_cache:
           name: save go cache
-          key: go-service-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
+          key: go-service-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
           paths:
             - ~/go/pkg/mod
       - save_cache:
           name: save ruby cache
-          key: go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}
+          key: go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}-{{ checksum ".source-key" }}
           paths:
             - test/vendor
       - restore_cache:
           name: restore go build cache
           keys:
-            - go-service-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
+            - go-service-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
             - go-service-template-go-build-cache-
       - restore_cache:
           name: restore go lint cache
           keys:
-            - go-service-template-go-lint-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-lint-version" }}
+            - go-service-template-go-lint-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-lint-version" }}-{{ checksum ".source-key" }}
             - go-service-template-go-lint-cache-
       - run: make clean
       - run: make lint
       - save_cache:
           name: save go lint cache
-          key: go-service-template-go-lint-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-lint-version" }}
+          key: go-service-template-go-lint-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-lint-version" }}-{{ checksum ".source-key" }}
           paths:
             - ~/.cache/golangci-lint
       - run: make sec
@@ -55,7 +56,7 @@ jobs:
       - run: make analyse
       - save_cache:
           name: save go build cache
-          key: go-service-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}
+          key: go-service-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
           paths:
             - ~/.cache/go-build
       - run: make coverage
