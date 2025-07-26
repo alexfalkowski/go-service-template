@@ -11,6 +11,7 @@ linters:
     - noinlineerr
     - paralleltest
     - tagalign
+    - wrapcheck
     - wsl
     - wsl_v5
   settings:

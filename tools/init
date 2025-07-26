@@ -13,17 +13,18 @@ make -C test clean-reports
 
 # Replace name in files.
 find "." -type f -exec sed -i "s/go-service-template/$name/g" {} +
+find "." -type f -exec sed -i "s/example/$name/g" {} +
 
 # Override test files.
 find "test" -type f -name "*.rb" -exec sed -i "s/Example/${name^}/g" {} +
-find "test" -type f -name "*.rb" -exec sed -i "s/example/$name/g" {} +
 mv "test/lib/example.rb" "test/lib/$name.rb"
 
 # Move service for API.
-mkdir -p "api/$name/v1"
-mv "api/service/v1/service.proto" "api/$name/v1/service.proto"
-sed -i "s/service\.v1/$name\.v1/g" "api/$name/v1/service.proto"
-rm -rf "api/service"
+rm -f api/example/v1/*.go
+rm -rf test/lib/example
+mv api/example "api/$name"
+sed -i "s/example\.v1/$name\.v1/g" "api/$name/v1/service.proto"
+make -C api generate
 
 # Fix style issues.
 make dep && make format && make ruby-fix-lint
