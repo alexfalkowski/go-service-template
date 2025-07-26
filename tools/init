@@ -13,8 +13,8 @@ rm -rf vendor test/vendor go-service-template
 make -C test clean-reports
 
 # Replace name in files.
-find "." -type f -exec sed -i "s/go-service-template/$name/g" {} +
-find "." -type f -exec sed -i "s/example/$name/g" {} +
+find "." -type f -not -path './.git*' -exec sed -i "s/go-service-template/$name/g" {} +
+find "." -type f -not -path './.git*' -exec sed -i "s/example/$name/g" {} +
 
 # Override test files.
 find "test" -type f -name "*.rb" -exec sed -i "s/Example/${name^}/g" {} +
