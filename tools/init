@@ -3,6 +3,7 @@
 set -e
 
 name=$(basename "$(pwd)")
+user=$(whoami)
 
 # Get all the submodules.
 git submodule sync && git submodule update --init
@@ -33,4 +34,4 @@ make dep && make format && make ruby-fix-lint
 rm -rf "tools" "CHANGELOG.md"
 
 # Create branch.
-git checkout -b "$USER/feat/init" && make msg="init $name" commit push review
+git checkout -b "$user/feat/init" && make msg="init $name" commit push review
