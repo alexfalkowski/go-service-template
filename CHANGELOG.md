@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.521.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.521.0) - 2025-07-26
+
+- [`efafe71`](https://github.com/alexfalkowski/go-service-template/commit/efafe7126a76aad775dc2e3f3817d7faf005895b) feat(tools): ignore git folder (#1255)
+
 ## [v1.520.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.520.0) - 2025-07-26
 
 - [`1963eac`](https://github.com/alexfalkowski/go-service-template/commit/1963eac3c6340e2e891e29987634aff024799ae9) feat(tools): use whoami for user (#1254)
