@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.525.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.525.0) - 2025-07-31
+
+- [`d7f7af4`](https://github.com/alexfalkowski/go-service-template/commit/d7f7af4c9f2717a802bec71f5c8f9b7e3b18c911) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.109.0 (#1265)
+- [`4129c44`](https://github.com/alexfalkowski/go-service-template/commit/4129c449800a388310aefb821a7bcb0834de7e71) build(ci): use latest published images (#1264)
+- [`bfa8eef`](https://github.com/alexfalkowski/go-service-template/commit/bfa8eef6ba03a435cd22197d39822d17c29aa22b) test(deps): bump rubocop from 1.79.0 to 1.79.1 in /test (#1263)
+- [`6760361`](https://github.com/alexfalkowski/go-service-template/commit/6760361a729b437ae1b5f4aa66f81e4a1fceebd4) build(deps): upgraded github.com/alexfalkowski/bin (#1262)
+- [`b7a64b1`](https://github.com/alexfalkowski/go-service-template/commit/b7a64b1b86fd8d42bd2173d8ae990c9c8a67f898) build(ci): use latest published images (#1261)
+
 ## [v1.524.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.524.0) - 2025-07-26
 
 - [`97656a3`](https://github.com/alexfalkowski/go-service-template/commit/97656a375d4d3753fe71cbeaad03723971186932) feat(health): use just noop for grpc (#1260)
