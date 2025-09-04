@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.549.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.549.0) - 2025-09-04
+
+- [`70c3cb7`](https://github.com/alexfalkowski/go-service-template/commit/70c3cb7ce629905b6a2df240e7934bd535511de2) feat(deps): upgraded github.com/alexfalkowski/bin (#1314)
+- [`e6b1d14`](https://github.com/alexfalkowski/go-service-template/commit/e6b1d145364a44aed28ab4a451e3c0c148c2b1b2) build(ci): use latest published images (#1313)
+- [`8a4b575`](https://github.com/alexfalkowski/go-service-template/commit/8a4b57550ac7a9139270a75da8b8d7326252c43f) test(deps): bump rubocop from 1.80.1 to 1.80.2 in /test (#1312)
+- [`60160e7`](https://github.com/alexfalkowski/go-service-template/commit/60160e79ae849ca30ba38bd43244e83ec19ba291) build(ci): use latest published images (#1310)
+- [`79e05de`](https://github.com/alexfalkowski/go-service-template/commit/79e05de8b4c251f82f4c9d99b17d2de54dc67929) build(deps): upgraded github.com/alexfalkowski/bin (#1309)
+
 ## [v1.548.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.548.0) - 2025-09-02
 
 - [`1c8a301`](https://github.com/alexfalkowski/go-service-template/commit/1c8a301036e6f81e1b03e922fb17eb0621ba03a8) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.137.0 (#1308)
