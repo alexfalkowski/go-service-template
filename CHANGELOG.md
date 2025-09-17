@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.557.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.557.0) - 2025-09-17
+
+- [`f4d78d6`](https://github.com/alexfalkowski/go-service-template/commit/f4d78d6627707513fc9257ce9cb1162152695095) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.158.0 (#1328)
+- [`e5532a8`](https://github.com/alexfalkowski/go-service-template/commit/e5532a8803ab4ae1f676f7b39ede81b7b17b5a71) build(ci): use latest published images (#1327)
+- [`d18b0d1`](https://github.com/alexfalkowski/go-service-template/commit/d18b0d16b67f9d0f4b0319b5d43c322ca652921e) build(ci): use latest published images (#1326)
+- [`b4b42a1`](https://github.com/alexfalkowski/go-service-template/commit/b4b42a13d608d4f674624c574d8c85c8dbe33a1d) test(grpc): use buf.build/protocolbuffers/go:v1.36.9 (#1325)
+
 ## [v1.556.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.556.0) - 2025-09-15
 
 - [`bfcc084`](https://github.com/alexfalkowski/go-service-template/commit/bfcc084a9e3ae6997e77991ab98c051d9d7f04d9) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.157.0 (#1324)
