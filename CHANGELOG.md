@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.572.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.572.0) - 2025-10-15
+
+- [`5ffe021`](https://github.com/alexfalkowski/go-service-template/commit/5ffe02109c0f1acf6134deb78019e03b38cf1147) feat(deps): bump bin from `09a61a1` to `5563606` (#1363)
+- [`27ee056`](https://github.com/alexfalkowski/go-service-template/commit/27ee056e40a43489597d1fb8d1f87ef171ee88d2) build(ci): use latest published images (#1362)
+- [`df07d09`](https://github.com/alexfalkowski/go-service-template/commit/df07d090b81ce0cf031df45f5179a5dff9bd0542) build(ci): use latest published images (#1361)
+- [`7ce69d4`](https://github.com/alexfalkowski/go-service-template/commit/7ce69d453b5f3c8a6b04608827805c22fe7f3827) test(deps): bump sinatra from 4.1.1 to 4.2.0 in /test (#1360)
+- [`a2b79b9`](https://github.com/alexfalkowski/go-service-template/commit/a2b79b9b561e18dcadbde20b4e35e2f264927328) test(deps): bump rack from 3.2.2 to 3.2.3 in /test (#1359)
+
 ## [v1.571.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.571.0) - 2025-10-10
 
 - [`dd2ea2e`](https://github.com/alexfalkowski/go-service-template/commit/dd2ea2e6d1e55b5d9e783a346e51d786331229e6) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.170.0 to 2.171.0 (#1358)
