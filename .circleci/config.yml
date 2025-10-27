@@ -76,7 +76,19 @@ jobs:
           method: blobless
       - run: git submodule sync
       - run: git submodule update --init
+      - run: make source-key
+      - restore_cache:
+          name: restore go cache
+          keys:
+            - go-service-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
+            - go-service-template-go-cache-
+      - restore_cache:
+          name: restore go build cache
+          keys:
+            - go-service-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
+            - go-service-template-go-build-cache-
       - run: version
+      - run: package
     resource_class: large
   build-docker-amd64:
     docker:
