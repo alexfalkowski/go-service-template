@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.579.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.579.0) - 2025-10-29
+
+- [`5fa8918`](https://github.com/alexfalkowski/go-service-template/commit/5fa8918950432adac0be9a44e6b834e240b46ca5) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.177.0 (#1375)
+- [`42f3365`](https://github.com/alexfalkowski/go-service-template/commit/42f33658d19dddba88e3bf8c942e3b013a14af80) test(deps): bump ruby-lsp from 0.26.1 to 0.26.2 in /test (#1374)
+- [`abda6a3`](https://github.com/alexfalkowski/go-service-template/commit/abda6a34611bd77ebbf34e3960486a774f9badd1) build(ci): use latest published images (#1373)
+
 ## [v1.578.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.578.0) - 2025-10-27
 
 - [`8f42eea`](https://github.com/alexfalkowski/go-service-template/commit/8f42eea0901f6cc1c803b30d20ca05417274eb22) feat(release): specify goarch (#1372)
