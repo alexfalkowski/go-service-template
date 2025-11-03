@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.581.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.581.0) - 2025-11-03
+
+- [`c7c72ce`](https://github.com/alexfalkowski/go-service-template/commit/c7c72cebac937ff214f45c590895548d8a309d7c) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.179.0 to 2.182.0 (#1380)
+- [`d760c00`](https://github.com/alexfalkowski/go-service-template/commit/d760c0027717381d74876a8b1e8fc83265843b8e) build(ci): use latest published images (#1379)
+- [`eb3974e`](https://github.com/alexfalkowski/go-service-template/commit/eb3974e02a6fb0bb57317159a46ac4f72d105714) test(deps): bump rubocop from 1.81.6 to 1.81.7 in /test (#1378)
+
 ## [v1.580.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.580.0) - 2025-10-30
 
 - [`36f422d`](https://github.com/alexfalkowski/go-service-template/commit/36f422df471f451572fd21d24b63f5a947e75db3) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.177.0 to 2.179.0 (#1377)
