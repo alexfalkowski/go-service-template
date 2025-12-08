@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.607.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.607.0) - 2025-12-08
+
+- [`8323ce4`](https://github.com/alexfalkowski/go-service-template/commit/8323ce48e8a87dcf0a2115c203037624b91f5c0f) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.212.0 (#1424)
+- [`05fa3fb`](https://github.com/alexfalkowski/go-service-template/commit/05fa3fbfbdb6a056dbead791492c24a20dd8fc3f) build(ci): use latest published images (#1423)
+- [`b147752`](https://github.com/alexfalkowski/go-service-template/commit/b1477527da3ac65aeb08b661c0676b46b9796468) build(ci): use latest published images (#1422)
+- [`58d1ab6`](https://github.com/alexfalkowski/go-service-template/commit/58d1ab64280d8e5445a77c2fde0424e52067ff0e) build(ci): use latest published images (#1421)
+- [`f7a5963`](https://github.com/alexfalkowski/go-service-template/commit/f7a5963b0fad1eb9c2142d916c34c89c382cb366) build(ci): use latest published images (#1420)
+- [`5cd9876`](https://github.com/alexfalkowski/go-service-template/commit/5cd98760c52c8d6efb5361d11e52062e0a3d351c) build(ci): use latest published images (#1419)
+
 ## [v1.606.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.606.0) - 2025-12-03
 
 - [`899b4ca`](https://github.com/alexfalkowski/go-service-template/commit/899b4ca07c60203ca78e59b271151c08cdcac16b) feat(deps): bump bin from `5ed27e1` to `6174b3d` (#1418)
