@@ -6,7 +6,7 @@ require (
 	github.com/alexfalkowski/go-health/v2 v2.6.0
 	github.com/alexfalkowski/go-service/v2 v2.217.0
 	google.golang.org/grpc v1.77.0
-	google.golang.org/protobuf v1.36.10
+	google.golang.org/protobuf v1.36.11
 )
 
 require (
