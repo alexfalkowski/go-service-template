@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.614.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.614.0) - 2025-12-18
+
+- [`d2f1f9a`](https://github.com/alexfalkowski/go-service-template/commit/d2f1f9aefc97dda85bc36f16a200517c94695ae7) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.221.0 (#1439)
+- [`669996b`](https://github.com/alexfalkowski/go-service-template/commit/669996b1cdead3fba0305fac7cc181add6732400) build(ci): use latest published images (#1438)
+- [`bef125c`](https://github.com/alexfalkowski/go-service-template/commit/bef125c6fa5a5bf25f8c1acc658f9372aa0e82fc) test(deps): update bundler to v4.0.2 (#1437)
+- [`7ccb08a`](https://github.com/alexfalkowski/go-service-template/commit/7ccb08ad7c205014f572d7a9b3b8451db5db9614) build(deps): upgraded github.com/alexfalkowski/bin (#1435)
+- [`a935252`](https://github.com/alexfalkowski/go-service-template/commit/a935252e1547e2ffa302bea252c20df7f3a9a345) build(ci): use latest published images (#1434)
+- [`9c7618e`](https://github.com/alexfalkowski/go-service-template/commit/9c7618e490d736bba0a76b4b5bfacc89ec2c4292) test(deps): bump rubocop from 1.81.7 to 1.82.0 in /test (#1433)
+
 ## [v1.613.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.613.0) - 2025-12-17
 
 - [`2b6a51f`](https://github.com/alexfalkowski/go-service-template/commit/2b6a51f6225f8e2f731db38d114bdd259fc7136e) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.220.0 (#1432)
