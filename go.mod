@@ -4,8 +4,8 @@ go 1.25.0
 
 require (
 	github.com/alexfalkowski/go-health/v2 v2.6.0
-	github.com/alexfalkowski/go-service/v2 v2.223.0
-	google.golang.org/grpc v1.77.0
+	github.com/alexfalkowski/go-service/v2 v2.224.0
+	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11
 )
 
