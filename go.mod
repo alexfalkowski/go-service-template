@@ -1,9 +1,9 @@
 module github.com/alexfalkowski/go-service-template
 
-go 1.25.0
+go 1.26.0
 
 require (
-	github.com/alexfalkowski/go-health/v2 v2.12.0
+	github.com/alexfalkowski/go-health/v2 v2.13.0
 	github.com/alexfalkowski/go-service/v2 v2.276.0
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11
