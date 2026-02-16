@@ -4,8 +4,8 @@ go 1.26.0
 
 require (
 	github.com/alexfalkowski/go-health/v2 v2.13.0
-	github.com/alexfalkowski/go-service/v2 v2.280.0
-	google.golang.org/grpc v1.79.0
+	github.com/alexfalkowski/go-service/v2 v2.283.0
+	google.golang.org/grpc v1.79.1
 	google.golang.org/protobuf v1.36.11
 )
 
@@ -18,7 +18,7 @@ require (
 	github.com/KimMachineGun/automemlimit v0.7.5 // indirect
 	github.com/XSAM/otelsql v0.41.0 // indirect
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1 // indirect
-	github.com/alexfalkowski/go-sync v1.7.0 // indirect
+	github.com/alexfalkowski/go-sync v1.9.0 // indirect
 	github.com/arl/statsviz v0.8.0 // indirect
 	github.com/avfs/avfs v0.35.0 // indirect
 	github.com/beevik/ntp v1.5.0 // indirect
