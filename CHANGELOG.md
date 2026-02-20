@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.644.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.644.0) - 2026-02-20
+
+- [`220686d`](https://github.com/alexfalkowski/go-service-template/commit/220686d575001673e34c7ae51e6fb491ebb7b630) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.286.0 to 2.287.0 (#1532)
+- [`560b214`](https://github.com/alexfalkowski/go-service-template/commit/560b2140122b940c07f50152c4fa4f86231d83b0) test(deps): bump ruby-lsp from 0.26.6 to 0.26.7 in /test (#1531)
+- [`f7c1483`](https://github.com/alexfalkowski/go-service-template/commit/f7c14832c76231abf23695d18ba7281460f161c5) build(deps): upgraded github.com/alexfalkowski/bin (#1530)
+- [`bbe027b`](https://github.com/alexfalkowski/go-service-template/commit/bbe027bcdfba980b206cb42df13492481d85e4f6) build(ci): use latest published images (#1528)
+
 ## [v1.643.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.643.0) - 2026-02-18
 
 - [`5d4f280`](https://github.com/alexfalkowski/go-service-template/commit/5d4f2802627145ccf0b0d68a37eae6551ee60fc5) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.285.0 to 2.286.0 (#1527)
