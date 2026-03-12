@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.654.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.654.0) - 2026-03-12
+
+- [`0a540d4`](https://github.com/alexfalkowski/go-service-template/commit/0a540d4812f07d7d01973a8a647128e0a65ec853) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.298.0 to 2.302.0 (#1569)
+- [`881405e`](https://github.com/alexfalkowski/go-service-template/commit/881405e4979603c17413c761f6bd37112af4b8ac) test(deps): bump ruby-lsp from 0.26.7 to 0.26.8 in /test (#1568)
+- [`deb7374`](https://github.com/alexfalkowski/go-service-template/commit/deb7374893d0838706e0551faec2ae3959ca866d) build(ci): use latest published images (#1567)
+- [`e991cc9`](https://github.com/alexfalkowski/go-service-template/commit/e991cc90e41e4666db996aedb1daf205c2a278b6) build(deps): upgraded github.com/alexfalkowski/bin (#1566)
+- [`9c44001`](https://github.com/alexfalkowski/go-service-template/commit/9c4400193ffeb52074c5af39f2443b2ed4e765d4) build(ci): use alexfalkowski/release:5.58 (#1565)
+- [`ceac86a`](https://github.com/alexfalkowski/go-service-template/commit/ceac86ad1c79b219daad32f4e91c2ff1c64dac92) test(deps): upgraded bundler to 4.0.8 (#1564)
+- [`0e957a0`](https://github.com/alexfalkowski/go-service-template/commit/0e957a0be4a21f79ce9786affc5abf0aa88b7359) build(ci): use latest published images (#1563)
+- [`fc5d7fd`](https://github.com/alexfalkowski/go-service-template/commit/fc5d7fd1fceef249838dd1fe68784c8906d07ec5) build(deps): upgraded github.com/alexfalkowski/bin (#1562)
+- [`e015594`](https://github.com/alexfalkowski/go-service-template/commit/e0155947956a79f4617d0c7b215962f0a2923798) build(deps): upgraded github.com/alexfalkowski/bin (#1561)
+- [`c59ea71`](https://github.com/alexfalkowski/go-service-template/commit/c59ea7116bd0c6bdfb2c82d228dcd632bcf7a46d) build(deps): upgraded github.com/alexfalkowski/bin (#1560)
+- [`88f22ee`](https://github.com/alexfalkowski/go-service-template/commit/88f22ee349242301e346e167eaec52ef65d43e14) build(ci): add wait-all (#1559)
+- [`4975c52`](https://github.com/alexfalkowski/go-service-template/commit/4975c528ddb49fc2422c0f52e6d4d8dd2edafd9e) build(ci): use latest published images (#1558)
+- [`50646be`](https://github.com/alexfalkowski/go-service-template/commit/50646be2c1923e26e5c09c0c5f6de6867cb5ed7e) build(ci): use latest published images (#1557)
+- [`d310824`](https://github.com/alexfalkowski/go-service-template/commit/d31082435c6e70df091e7a20c71722aa41ce684d) build(ci): use latest published images (#1556)
+
 ## [v1.653.0](https://github.com/alexfalkowski/go-service-template/releases/tag/v1.653.0) - 2026-03-09
 
 - [`cb19fd4`](https://github.com/alexfalkowski/go-service-template/commit/cb19fd450c4df77310a73a41706a7694f9973a76) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.295.0 to 2.298.0 (#1555)
