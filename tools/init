@@ -28,7 +28,7 @@ sed -i "s/example\.v1/$name\.v1/g" "api/$name/v1/service.proto"
 make -C api generate
 
 # Fix style issues.
-make dep && make format && make ruby-fix-lint
+make dep && make format && make fix-lint
 
 # Remove files that are not needed.
 rm -rf "tools" "CHANGELOG.md"
