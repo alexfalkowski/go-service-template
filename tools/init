@@ -31,7 +31,7 @@ make -C api generate
 make dep && make format && make fix-lint
 
 # Remove files that are not needed.
-rm -rf "tools" "CHANGELOG.md"
+rm -rf "tools"
 
 # Create branch.
 git checkout -b "$user/feat/init" && make msg="init $name" ready
