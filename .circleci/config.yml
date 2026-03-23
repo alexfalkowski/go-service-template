@@ -87,7 +87,6 @@ jobs:
           method: blobless
       - run: git submodule sync
       - run: git submodule update --init
-      - run: make pull
       - run: make source-key
       - restore_cache:
           name: restore go cache
