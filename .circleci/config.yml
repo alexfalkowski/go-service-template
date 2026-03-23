@@ -151,7 +151,6 @@ jobs:
       - run: git submodule update --init
       - attach_workspace:
           at: /tmp/workspace
-      - run: make pull
       - setup_remote_docker:
           docker_layer_caching: true
       - run:
@@ -170,7 +169,6 @@ jobs:
       - run: git submodule update --init
       - attach_workspace:
           at: /tmp/workspace
-      - run: make pull
       - setup_remote_docker:
           docker_layer_caching: true
       - run:
@@ -189,7 +187,6 @@ jobs:
       - run: git submodule update --init
       - attach_workspace:
           at: /tmp/workspace
-      - run: make pull
       - setup_remote_docker:
           docker_layer_caching: true
       - run:
