@@ -103,7 +103,7 @@ jobs:
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
-            - release-version.txt
+            - .
       - run: package
     resource_class: arm.large
   wait-all:
