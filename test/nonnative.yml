@@ -16,5 +16,9 @@ processes:
       - 12000
     log: reports/server.log
     readiness:
-      port: 11000
-      path: /go-service-template/readyz
+      - kind: http
+        port: 11000
+        path: /go-service-template/readyz
+      - kind: grpc
+        port: 12000
+        service: example.v1.Service
