@@ -4,8 +4,6 @@ require 'securerandom'
 require 'yaml'
 require 'base64'
 
-require 'grpc/health/v1/health_services_pb'
-
 module Example
   class << self
     def config
@@ -13,7 +11,7 @@ module Example
     end
 
     def health_grpc
-      @health_grpc ||= Grpc::Health::V1::Health::Stub.new('localhost:12000', :this_channel_is_insecure, channel_args: Example.user_agent)
+      @health_grpc ||= Nonnative.grpc_health(host: 'localhost', port: 12_000, service: 'example.v1.Service')
     end
 
     def user_agent
