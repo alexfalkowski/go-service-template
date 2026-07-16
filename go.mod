@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/alexfalkowski/go-health/v2 v2.37.0
-	github.com/alexfalkowski/go-service/v2 v2.677.0
+	github.com/alexfalkowski/go-service/v2 v2.678.0
 	google.golang.org/grpc v1.82.1
 	google.golang.org/protobuf v1.36.11
 )
