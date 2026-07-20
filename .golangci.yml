@@ -8,6 +8,7 @@ linters:
     - funcorder
     - gochecknoglobals
     - goconst
+    - gomodguard
     - gomodguard_v2
     - nlreturn
     - noinlineerr
