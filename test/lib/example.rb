@@ -7,7 +7,7 @@ require 'base64'
 module Example
   class << self
     def config
-      @config ||= Nonnative::ConfigurationFile.load('.config/server.yml')
+      @config ||= Nonnative::ConfigurationFile.load('.config/server.yaml')
     end
 
     def health_grpc
