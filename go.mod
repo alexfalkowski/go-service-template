@@ -3,8 +3,8 @@ module github.com/alexfalkowski/go-service-template
 go 1.26.0
 
 require (
-	github.com/alexfalkowski/go-health/v2 v2.37.0
-	github.com/alexfalkowski/go-service/v2 v2.748.0
+	github.com/alexfalkowski/go-health/v2 v2.38.0
+	github.com/alexfalkowski/go-service/v2 v2.749.0
 	google.golang.org/grpc v1.83.0
 	google.golang.org/protobuf v1.36.12
 )
