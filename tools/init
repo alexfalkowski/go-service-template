@@ -1,9 +1,27 @@
 #!/usr/bin/env bash
+# Initialize a service from the GitHub metadata provisioned by InfraOps.
 
-set -e
+set -eo pipefail
 
-name=$(basename "$(pwd)")
+origin=$(git remote get-url origin)
+metadata=$(gh repo view "$origin" --json name,nameWithOwner,description --jq '.name, .nameWithOwner, (.description // "")')
+{
+  IFS= read -r name
+  IFS= read -r repository
+  description=$(cat)
+} <<< "$metadata"
 user=$(whoami)
+
+if [[ -z ${description//[[:space:]]/} ]]; then
+  printf 'Set the repository description in InfraOps before initializing.\n' >&2
+  exit 1
+fi
+
+# Shared Make targets use the checkout directory as the binary name.
+if [[ $(basename "$PWD") != "$name" ]]; then
+  printf 'Clone the repository into a directory named %s before initializing.\n' "$name" >&2
+  exit 1
+fi
 
 # Get all the submodules.
 git submodule sync && git submodule update --init
@@ -12,9 +30,23 @@ git submodule sync && git submodule update --init
 rm -rf vendor test/vendor go-service-template
 make -C test clean-reports
 
-# Replace name in files.
-find "." -type f -not -path './.git/*' -exec sed -i "s/go-service-template/$name/g" {} +
-find "." -type f -not -path './.git/*' -exec sed -i "s/example/$name/g" {} +
+# Replace template names only in this repository's tracked regular files.
+while IFS= read -r -d '' file; do
+  [[ -f $file && ! -L $file ]] || continue
+  sed -i -e "s/example/$name/g" \
+    -e "s|alexfalkowski/go-service-template|$repository|g" \
+    -e "s/go-service-template/$name/g" "$file"
+done < <(git ls-files -z -- . ':!:bin' ':!:tools' ':!:README.md' ':!:.env' ':!:.env.*')
+
+# Insert the description last so its text is preserved literally.
+readme=$(< README.md)
+readme=${readme//'alexfalkowski/go-service-template'/"$repository"}
+readme=${readme//'go-service-template'/"$name"}
+readme=${readme//'api/example/'/"api/$name/"}
+readme=${readme//'example.v1'/"$name.v1"}
+readme=${readme/'<!-- template:setup -->'*'<!-- /template:setup -->'/}
+readme=${readme/'<!-- repository:description -->'*'<!-- /repository:description -->'/"$description"}
+printf '%s\n' "$readme" > README.md
 
 # Override test files.
 find "test" -type f -name "*.rb" -exec sed -i "s/Example/${name^}/g" {} +
