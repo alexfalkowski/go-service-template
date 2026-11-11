@@ -3,8 +3,8 @@ module github.com/alexfalkowski/go-service-template
 go 1.27.0
 
 require (
-	github.com/alexfalkowski/go-health/v2 v2.41.0
-	github.com/alexfalkowski/go-service/v2 v2.816.0
+	github.com/alexfalkowski/go-health/v2 v2.42.0
+	github.com/alexfalkowski/go-service/v2 v2.818.0
 	google.golang.org/grpc v1.85.0
 	google.golang.org/protobuf v1.36.12
 )
@@ -18,7 +18,7 @@ require (
 	github.com/KimMachineGun/automemlimit v1.0.1 // indirect
 	github.com/XSAM/otelsql v0.44.0 // indirect
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1 // indirect
-	github.com/alexfalkowski/go-sync v1.36.0 // indirect
+	github.com/alexfalkowski/go-sync v1.37.0 // indirect
 	github.com/arl/statsviz v0.8.2 // indirect
 	github.com/avfs/avfs v0.35.0 // indirect
 	github.com/beevik/ntp v1.6.0 // indirect
