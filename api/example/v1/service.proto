@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package example.v1;
 
-option go_package = "github.com/alexfalkowski/go-service-template/api/example/v1";
+option go_package = "github.com/alexfalkowski/go-service-template/v2/api/example/v1";
 option ruby_package = "Example::V1";
 
 // HelloRequest with message.
