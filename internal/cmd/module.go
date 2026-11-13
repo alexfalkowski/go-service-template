@@ -3,12 +3,12 @@ package cmd
 import (
 	"github.com/alexfalkowski/go-service-template/internal/config"
 	"github.com/alexfalkowski/go-service-template/internal/health"
-	"github.com/alexfalkowski/go-service/v2/di"
-	"github.com/alexfalkowski/go-service/v2/module"
+	"github.com/alexfalkowski/go-service/v3/module"
+	"github.com/alexfalkowski/go-signal/v2"
 )
 
-// Module for fx.
-var Module = di.Module(
+// Module composes the server with service configuration and health checks.
+var Module = signal.Module(
 	module.Server,
 	config.Module,
 	health.Module,

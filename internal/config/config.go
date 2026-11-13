@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/alexfalkowski/go-service-template/internal/health"
-	"github.com/alexfalkowski/go-service/v2/config"
+	"github.com/alexfalkowski/go-service/v3/config"
 )
 
 // Config for the service.
