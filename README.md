@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/alexfalkowski/go-service-template.svg?style=svg)](https://circleci.com/gh/alexfalkowski/go-service-template)
 [![codecov](https://codecov.io/gh/alexfalkowski/go-service-template/graph/badge.svg)](https://codecov.io/gh/alexfalkowski/go-service-template)
-[![Go Reference](https://pkg.go.dev/badge/github.com/alexfalkowski/go-service-template.svg)](https://pkg.go.dev/github.com/alexfalkowski/go-service-template)
+[![Go Reference](https://pkg.go.dev/badge/github.com/alexfalkowski/go-service-template/v2.svg)](https://pkg.go.dev/github.com/alexfalkowski/go-service-template/v2)
 [![Stability: Active](https://masterminds.github.io/stability/active.svg)](https://masterminds.github.io/stability/active.html)
 
 # go-service-template
@@ -34,6 +34,7 @@ tools/init
 Initialization requires Bash 4+, GNU sed, Git, the GitHub CLI, and the development
 tools below. It reads the name, owner, and description from the GitHub repository
 at `origin`, then updates the module path, service names, README, and badges.
+New services start with an unversioned Go module path.
 An empty description or a checkout directory that differs from the repository
 name stops initialization before any files are changed.
 
@@ -109,6 +110,6 @@ service's configuration there once it is provisioned.
 ## References
 
 - [API contract](api/example/v1/service.proto)
-- [Go package documentation](https://pkg.go.dev/github.com/alexfalkowski/go-service-template)
+- [Go package documentation](https://pkg.go.dev/github.com/alexfalkowski/go-service-template/v2)
 - [Releases](https://github.com/alexfalkowski/go-service-template/releases)
 - [Shared tooling](bin/README.md)

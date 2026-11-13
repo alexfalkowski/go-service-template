@@ -5,7 +5,7 @@
 require 'google/protobuf'
 
 
-descriptor_data = "\n\x18\x65xample/v1/service.proto\x12\nexample.v1\"(\n\x0cHelloRequest\x12\x18\n\x07message\x18\x01 \x01(\tR\x07message\")\n\rHelloResponse\x12\x18\n\x07message\x18\x01 \x01(\tR\x07message2G\n\x07Service\x12<\n\x05Hello\x12\x18.example.v1.HelloRequest\x1a\x19.example.v1.HelloResponseBKZ;github.com/alexfalkowski/go-service-template/api/example/v1\xea\x02\x0b\x45xample::V1b\x06proto3"
+descriptor_data = "\n\x18\x65xample/v1/service.proto\x12\nexample.v1\"(\n\x0cHelloRequest\x12\x18\n\x07message\x18\x01 \x01(\tR\x07message\")\n\rHelloResponse\x12\x18\n\x07message\x18\x01 \x01(\tR\x07message2G\n\x07Service\x12<\n\x05Hello\x12\x18.example.v1.HelloRequest\x1a\x19.example.v1.HelloResponseBNZ>github.com/alexfalkowski/go-service-template/v2/api/example/v1\xea\x02\x0b\x45xample::V1b\x06proto3"
 
 pool = ::Google::Protobuf::DescriptorPool.generated_pool
 pool.add_serialized_file(descriptor_data)

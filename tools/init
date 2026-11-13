@@ -34,12 +34,14 @@ make -C test clean-reports
 while IFS= read -r -d '' file; do
   [[ -f $file && ! -L $file ]] || continue
   sed -i -e "s/example/$name/g" \
+    -e "s|alexfalkowski/go-service-template/v2|$repository|g" \
     -e "s|alexfalkowski/go-service-template|$repository|g" \
     -e "s/go-service-template/$name/g" "$file"
 done < <(git ls-files -z -- . ':!:bin' ':!:tools' ':!:README.md' ':!:.env' ':!:.env.*')
 
 # Insert the description last so its text is preserved literally.
 readme=$(< README.md)
+readme=${readme//'alexfalkowski/go-service-template/v2'/"$repository"}
 readme=${readme//'alexfalkowski/go-service-template'/"$repository"}
 readme=${readme//'go-service-template'/"$name"}
 readme=${readme//'api/example/'/"api/$name/"}

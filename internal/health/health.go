@@ -3,7 +3,7 @@ package health
 import (
 	"github.com/alexfalkowski/go-health/v2/checker"
 	"github.com/alexfalkowski/go-health/v2/server"
-	v1 "github.com/alexfalkowski/go-service-template/api/example/v1"
+	v1 "github.com/alexfalkowski/go-service-template/v2/api/example/v1"
 	"github.com/alexfalkowski/go-service/v3/env"
 	"github.com/alexfalkowski/go-service/v3/health"
 )

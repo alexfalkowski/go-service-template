@@ -122,7 +122,7 @@ const file_example_v1_service_proto_rawDesc = "" +
 	"\rHelloResponse\x12\x18\n" +
 	"\amessage\x18\x01 \x01(\tR\amessage2G\n" +
 	"\aService\x12<\n" +
-	"\x05Hello\x12\x18.example.v1.HelloRequest\x1a\x19.example.v1.HelloResponseBKZ;github.com/alexfalkowski/go-service-template/api/example/v1\xea\x02\vExample::V1b\x06proto3"
+	"\x05Hello\x12\x18.example.v1.HelloRequest\x1a\x19.example.v1.HelloResponseBNZ>github.com/alexfalkowski/go-service-template/v2/api/example/v1\xea\x02\vExample::V1b\x06proto3"
 
 var (
 	file_example_v1_service_proto_rawDescOnce sync.Once
